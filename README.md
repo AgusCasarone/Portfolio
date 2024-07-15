@@ -34,6 +34,7 @@ You will find a comment on each part you would need to change, but these are the
 You can customize the colors and font for the page view.
 It is based on this *[Figma Community design](https://www.figma.com/design/F9pH3o2t0Tm3I8yqtDP6zw/CV-color-light-english?node-id=0-1&t=UkZkRJjr50tIRWxX-0)*. 
 Credits to the designer. If you know the author of this design, please let me know so I can tag them properly.
+I also used this *[set of icons](https://www.figma.com/design/MG3lOwSBAqHkepaqp2P3JS/Heroicons-(Community)?t=kEf8puTgoyz2K9eU-0)* and this *[pallete generator](https://palettte.app/)*.
 
 1. Go to the portfolio\tailwind.config.js file.
 
