@@ -32,9 +32,9 @@ You will find a comment on each part you would need to change, but these are the
 ### Web Style
 
 You can customize the colors and font for the page view.
-It is based on this *[Figma Community design](https://www.figma.com/design/F9pH3o2t0Tm3I8yqtDP6zw/CV-color-light-english?node-id=0-1&t=UkZkRJjr50tIRWxX-0)*. 
-Credits to the designer. If you know the author of this design, please let me know so I can tag them properly.
-I also used this *[set of icons](https://www.figma.com/design/MG3lOwSBAqHkepaqp2P3JS/Heroicons-(Community)?t=kEf8puTgoyz2K9eU-0)* and this *[pallete generator](https://palettte.app/)*.
+It is based on this *[Figma Community design](https://www.figma.com/design/F9pH3o2t0Tm3I8yqtDP6zw/CV-color-light-english?node-id=0-1&t=UkZkRJjr50tIRWxX-0)*. If you are or know the author of this design, please let me know so I can tag them properly.
+
+I also used this *[set of icons](https://www.figma.com/design/MG3lOwSBAqHkepaqp2P3JS/Heroicons-(Community)?t=kEf8puTgoyz2K9eU-0)* and this *[palete generator](https://palettte.app/)*.
 
 1. Go to the portfolio\tailwind.config.js file.
 
@@ -46,19 +46,19 @@ I also used this *[set of icons](https://www.figma.com/design/MG3lOwSBAqHkepaqp2
     **MAIN PART**
     Education, Experience and My Skills.
 
-    a. main-description-color: The text color on the main paragraphs. For example, the description of each position.
-    b. main-title-color: The text color on the main title. For example, intitutions' names and role title.
-    c. main-subtitle-color: The text color on the main subtitle. For example, the dates of each position.
+    1. main-description-color: The text color on the main paragraphs. For example, the description of each position.
+    2. main-title-color: The text color on the main title. For example, intitutions' names and role title.
+    3. main-subtitle-color: The text color on the main subtitle. For example, the dates of each position.
 
     **MISCELLANEOUS PART**
     Personal Information, Get in Touch, Industry Knowledge, Languages, Social Media and Hobbies.
 
-    a. misc-primary-color: The text and icon color for almost everything.
-    b. misc-secondary-color: The text and icon color for the last name, position and abled proficiency points.
-    c. misc-teriary-color: The text and icon color for the disabled proficiency points.
+    1. misc-primary-color: The text and icon color for almost everything.
+    2. misc-secondary-color: The text and icon color for the last name, position and abled proficiency points.
+    3. misc-teriary-color: The text and icon color for the disabled proficiency points.
 
 3. **Fonts**
     Set the portfolio-primary-font to the ones you chose. 
     Remember to import them correctly and check if everything is being render correctly.
 
-    a. my-font: This project uses only one font for every text you see.
+    1. my-font: This project uses only one font for every text you see.
