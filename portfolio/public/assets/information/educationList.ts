@@ -40,6 +40,16 @@ export const educationList: Education[] = [
       "Successfully managed professional challenges demonstrating the practical application of acquired knowledge."
   },
   {
+    title: "CS50 - C",
+    institution: "Harvard University",
+    date: "2021",
+    place: "Online",
+    description: "Harvard University's introductory course in computer science and programming. " +
+      "Gained a robust understanding of computer science concepts such as abstraction, algorithms, data structures, encapsulation, " +
+      "resource management, security, software engineering, and web development. Strong knowledge in languages including C, Python, " +
+      "SQL and JavaScript, with practical experience in real-world inspired problem sets and a final programming project."
+  },
+  {
     title: "100 Days of Code: The Complete Python Pro Bootcamp ",
     institution: "Udemy",
     date: "2023",
@@ -49,7 +59,7 @@ export const educationList: Education[] = [
   },
   {
     title: "Responsive Web Design Certification",
-    link: "",
+    link: "https://www.freecodecamp.org/certification/agustina-casarone/responsive-web-design",
     institution: "Free Code Camp",
     date: "2021",
     place: "Online",
