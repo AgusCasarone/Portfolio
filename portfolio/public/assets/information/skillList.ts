@@ -2,110 +2,110 @@ import { Skill } from '../../../src/interfaces/skill';
 export const skillList: Skill[] = [
   {
     name: 'Java',
-    icon: ''
+    icon: 'assets/images/skills/java.svg'
   },
   {
     name: 'AngularTS',
-    icon: ''
+    icon: 'assets/images/skills/angular.svg'
   },
   {
     name: 'SQL',
-    icon: ''
+    icon: 'assets/images/skills/sql.svg'
   },
   {
     name: 'JavaScript',
-    icon: ''
+    icon: 'assets/images/skills/javascript.svg'
   },
   {
     name: 'TypeScript',
-    icon: ''
+    icon: 'assets/images/skills/typescript.svg'
   },
   {
     name: 'Quarkus',
-    icon: ''
+    icon: 'assets/images/skills/quarkus.svg'
   },
   {
     name: 'React',
-    icon: ''
+    icon: 'assets/images/skills/react.svg'
   },
   {
     name: 'Docker',
-    icon: ''
+    icon: 'assets/images/skills/docker.svg'
   },
   {
     name: 'Kubernetes',
-    icon: ''
+    icon: 'assets/images/skills/kubernetes.svg'
   },
   {
     name: 'Spring',
-    icon: ''
+    icon: 'assets/images/skills/spring.svg'
   },
   {
     name: 'Spring Boot',
-    icon: ''
+    icon: 'assets/images/skills/springboot.png'
   },
   {
     name: 'Spring Security',
-    icon: ''
+    icon: 'assets/images/skills/springsecurity.png'
   },
   {
     name: 'Junit',
-    icon: ''
+    icon: 'assets/images/skills/junit.png'
   },
   {
     name: 'Git',
-    icon: ''
+    icon: 'assets/images/skills/git.svg'
   },
   {
     name: 'GitLab',
-    icon: ''
+    icon: 'assets/images/skills/gitlab.svg'
   },
   {
     name: 'GitLab CI/CD',
-    icon: ''
+    icon: 'assets/images/skills/gitlabcicd.png'
   },
   {
     name: 'AWS',
-    icon: ''
+    icon: 'assets/images/skills/aws.png'
   },
   {
     name: 'API REST',
-    icon: ''
+    icon: 'assets/images/skills/api.png'
   },
   {
     name: 'SOAP',
-    icon: ''
+    icon: 'assets/images/skills/soap.svg'
   },
   {
     name: 'Figma',
-    icon: ''
+    icon: 'assets/images/skills/figma.svg'
   },
   {
     name: 'C',
-    icon: ''
+    icon: 'assets/images/skills/c.svg'
   },
   {
     name: 'HTML',
-    icon: ''
+    icon: 'assets/images/skills/html.svg'
   },
   {
     name: 'CSS',
-    icon: ''
+    icon: 'assets/images/skills/css.svg'
   },
   {
     name: 'SASS',
-    icon: ''
+    icon: 'assets/images/skills/sass.svg'
   },
   {
     name: 'SCRUM',
-    icon: ''
+    icon: 'assets/images/skills/scrum.svg'
   },
   {
     name: 'node',
-    icon: ''
+    icon: 'assets/images/skills/nodejs.svg'
   },
   {
     name: 'Next',
-    icon: ''
+    icon: 'assets/images/skills/next.svg'
   },
 ]
