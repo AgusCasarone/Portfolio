@@ -265,6 +265,43 @@ If you need further guidance, here you have the instructions for each block:
          so *don't use quotation marks*. Number 1 will be at the top. This field is not mandatory.
          If you don't use it, it will be rendered in the same order of the code.
 
+9. **Projects**
+    **File:** portfolio\public\assets\information\projectList.ts
+   
+   **Basic structure:**
+   ```typescript
+   {
+      name: 'string',
+      link: 'string',
+      description: 'string',
+      design: 'string',
+      date: 'string',
+      image: 'string'
+   },
+   ```
+   
+   **How to fill:**
+      - name: The project title;
+      - link: This field is not mandatory. A link that anyone can use to see your project on the internet.
+            When the user clicks the name, this will be opened on a new tab;
+      - description: A brief description of your project, what your goal was, how you did it and the technologies used;
+      - repository: This field is not mandatory. If you used any kind of version control, here you can paste the link
+           to the repo, so anyone can see the code;
+      - design: This field is not mandatory. A link that anyone can use to see the design you followed.
+      - date: This is a string instead of a date so you can type what you feel is relevant.
+         It will look like plain text just as you typed it. You can write any date format or even text describing how it is going:
+         For example: `01/01/2020`, `2020`, `from 2020 to 2023`, `2020 - ongoing`, `started on October 2021 and quit in 2022`,
+         `personal project since 2020 and keeping updated`;
+      - image: This field is not mandatory. It is a string (text) with the relative path for the image.
+           It should be a PNG or SVG file saved on portfolio\public\assets\images\projects. You should 
+           write it since the assets directory uses `/` slash separation.
+           For example: `"assets/images/projects/portfolio.svg"`;
+      - order: This list will be rendered on the order you set here. It is a number that indicates the code's position in the list,
+         so *don't use quotation marks*. Number 1 will be at the top. This field is not mandatory.
+         If you don't use it, it will be rendered in the same order of the code.
+        
+
+        
 ### Web Style
 
 You can customize the colors and font for the page view.
