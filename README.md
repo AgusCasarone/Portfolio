@@ -160,7 +160,7 @@ If you need further guidance, here you have the instructions for each block:
       so *don't use quotation marks*. Number 1 will be at the top. This field is not mandatory.
       If you don't use it, it will be rendered in the same order of the code.
    
-5. **Knowledge**
+4. **Knowledge**
 
    **File:** portfolio\public\assets\information\knowledgeList.ts
   
@@ -177,7 +177,7 @@ If you need further guidance, here you have the instructions for each block:
       so *don't use quotation marks*. Number 1 will be at the top. This field is not mandatory.
       If you don't use it, it will be rendered in the same order of the code.
 
-7. **Language**
+5. **Language**
 
    **File:** portfolio\public\assets\information\languagesList.ts
   
@@ -197,10 +197,10 @@ If you need further guidance, here you have the instructions for each block:
       If you don't use it, it will be rendered in the same order of the code.
 
 
-9. **Personal Information**
+6. **Personal Information**
 
    **File:** portfolio\public\assets\information\personalInfoDetail.ts
-  
+   
    **Basic structure:**
    ```typescript
     {
@@ -222,7 +222,7 @@ If you need further guidance, here you have the instructions for each block:
    - location: The place where you live or will be working from. It will not be linked to a map of any kind; 
 
 
-10. **Skills**
+7. **Skills**
 
    **File:** portfolio\public\assets\information\skillList.ts
    
@@ -236,16 +236,16 @@ If you need further guidance, here you have the instructions for each block:
    ```
    
    **How to fill:**
-   - name: The title of your hobby;
-   - icon: This is a string (text) with the relative path for the image.
-        It should be a PNG or SVG file saved on portfolio\public\assets\images\skills. You should 
-        write it since the assets directory uses `/` slash separation.
-        For example: `"assets/images/skills/Java.svg"`
-   - order: This list will be rendered on the order you set here. It is a number that indicates the code's position in the list,
-      so *don't use quotation marks*. Number 1 will be at the top. This field is not mandatory.
-      If you don't use it, it will be rendered in the same order of the code.
+      - name: The title of your hobby;
+      - icon: This is a string (text) with the relative path for the image.
+           It should be a PNG or SVG file saved on portfolio\public\assets\images\skills. You should 
+           write it since the assets directory uses `/` slash separation.
+           For example: `"assets/images/skills/Java.svg"`
+      - order: This list will be rendered on the order you set here. It is a number that indicates the code's position in the list,
+         so *don't use quotation marks*. Number 1 will be at the top. This field is not mandatory.
+         If you don't use it, it will be rendered in the same order of the code.
 
-11. **Social Media**
+8. **Social Media**
    **File:** portfolio\public\assets\information\skillList.ts
    
    **Basic structure:**
@@ -258,12 +258,12 @@ If you need further guidance, here you have the instructions for each block:
    ```
    
    **How to fill:**
-   - socialMedia: This is the text that will be shown on the final web application. You can write whatever you want here,
-        however, I recommend using the very link, so that it looks more clear;
-   - url: The link to your social media;
-   - order: This list will be rendered on the order you set here. It is a number that indicates the code's position in the list,
-      so *don't use quotation marks*. Number 1 will be at the top. This field is not mandatory.
-      If you don't use it, it will be rendered in the same order of the code.
+      - socialMedia: This is the text that will be shown on the final web application. You can write whatever you want here,
+           however, I recommend using the very link, so that it looks more clear;
+      - url: The link to your social media;
+      - order: This list will be rendered on the order you set here. It is a number that indicates the code's position in the list,
+         so *don't use quotation marks*. Number 1 will be at the top. This field is not mandatory.
+         If you don't use it, it will be rendered in the same order of the code.
 
 ### Web Style
 
