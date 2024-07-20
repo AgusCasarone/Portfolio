@@ -76,19 +76,19 @@ If you need further guidance, here you have the instructions for each block:
     ```
     
     **How to fill:**
-- title: The title you got or are pursuing;
-- link: If you have it, the link to the certification or some official relevant document.
-           On the page, people will be able to click on the title and be redirected to this link.
-           This is not required, so in case you don't have it you can either leave it empty with `""` or don't include it at all;
-- institution: The institution name;
-- date: This is a string instead of a date so you can type what you feel is relevant.
-           It will look like plain text just as you typed it. You can write any date format or even text describing how it is going:
-           For example: `01/01/2020`, `2020`, `from 2020 to 2023`, `2020 - ongoing`, `started on October 2021 and abandoned`,
-           `self-taught since 2020 and keeping updated`;
-- place: The place in the world you studied this. `"Online"` is a perfectly valid option;
-- description: Describe the profile of a graduate, the things you learn there, how this impacted your profile, etc. There is no characters limit.
-- order: This list will be rendered on the order you set here. It is a number that indicates the code's position in the list,
-           so *don't use quotation marks*. Number 1 will be at the top.
+   - title: The title you got or are pursuing;
+   - link: If you have it, the link to the certification or some official relevant document.
+              On the page, people will be able to click on the title and be redirected to this link.
+              This is not required, so in case you don't have it you can either leave it empty with `""` or don't include it at all;
+   - institution: The institution name;
+   - date: This is a string instead of a date so you can type what you feel is relevant.
+              It will look like plain text just as you typed it. You can write any date format or even text describing how it is going:
+              For example: `01/01/2020`, `2020`, `from 2020 to 2023`, `2020 - ongoing`, `started on October 2021 and abandoned`,
+              `self-taught since 2020 and keeping updated`;
+   - place: The place in the world you studied this. `"Online"` is a perfectly valid option;
+   - description: Describe the profile of a graduate, the things you learn there, how this impacted your profile, etc. There is no characters limit.
+   - order: This list will be rendered on the order you set here. It is a number that indicates the code's position in the list,
+              so *don't use quotation marks*. Number 1 will be at the top.
   
 2. **Experience**
   
@@ -107,23 +107,23 @@ If you need further guidance, here you have the instructions for each block:
     },
     ```
    **How to fill:**
-  - title: The title of your position;
-  - institution: The institution/organization/company name;
-  - date: This is a string instead of a date so you can type what you feel is relevant.
-       It will look like plain text just as you typed it. You can write any date format or even text describing how it is going:
-       For example: `01/01/2020`, `2020`, `from 2020 to 2023`, `2020 - ongoing`, `started on October 2021 and quit in 2022`,
-       `personal project since 2020 and keeping updated`;
-  - place: The place in the world where you had this experience. `"Online"` is a perfectly valid option and also `"Online from Argentina"`;
-  - description: Describe your position, responsibilities, achievements, goals, roles, technologies used, working methologies,
-       what you've learned from it, how it impacted your proffessional life or anything you want. There is no characters limit.
-  - technologies: An array (list) of strings (texts). Each text is one technology.
-       This is not required, so in case you don't have it you can either leave it empty with `[]` or don't include it at all;
-    
+   - title: The title of your position;
+   - institution: The institution/organization/company name;
+   - date: This is a string instead of a date so you can type what you feel is relevant.
+    It will look like plain text just as you typed it. You can write any date format or even text describing how it is going:
+    For example: `01/01/2020`, `2020`, `from 2020 to 2023`, `2020 - ongoing`, `started on October 2021 and quit in 2022`,
+    `personal project since 2020 and keeping updated`;
+   - place: The place in the world where you had this experience. `"Online"` is a perfectly valid option and also `"Online from Argentina"`;
+   - description: Describe your position, responsibilities, achievements, goals, roles, technologies used, working methologies,
+    what you've learned from it, how it impacted your proffessional life or anything you want. There is no characters limit.
+   - technologies: An array (list) of strings (texts). Each text is one technology.
+    This is not required, so in case you don't have it you can either leave it empty with `[]` or don't include it at all;
+   
        *How to fill this*
        1. The list should be surrounded by `[brackets]` and followed by a `,` comma;
        2. Each technology should be written between `"quotation marks"`;
        3. Each technology should be followed by a `,` comma;
-
+      
            EXAMPLE:
            ```typescript
             {
@@ -135,15 +135,96 @@ If you need further guidance, here you have the instructions for each block:
             },
             ```
    - order: This list will be rendered on the order you set here. It is a number that indicates the code's position in the list,
-         so *don't use quotation marks*. Number 1 will be at the top. This field is not mandatory.
-         If you don't use it, it will be rendered on the same order of the code.
+      so *don't use quotation marks*. Number 1 will be at the top. This field is not mandatory.
+      If you don't use it, it will be rendered on the same order of the code.
 
 3. **Hobby**
-4. **Knowledge**
-5. **Language**
-6. **Personal Information**
-7. **Skills**
-8. **Social Media**
+  
+   **File:** portfolio\public\assets\information\hobbyList.ts
+  
+   **Basic structure:**
+   ```typescript
+    {
+      title: string,
+      image: string,
+      order?: number
+    },
+    ```
+   **How to fill:**
+   - title: The title of your hobby;
+   - image: This is a string (text) with the relative path for the image.
+        It should be an SVG file saved on portfolio\public\assets\images\hobbies. You should 
+        write it since the assets directory uses `/` slash separation.
+        For example: `"assets/images/hobbies/gaming.svg"`
+   - order: This list will be rendered on the order you set here. It is a number that indicates the code's position in the list,
+      so *don't use quotation marks*. Number 1 will be at the top. This field is not mandatory.
+      If you don't use it, it will be rendered in the same order of the code.
+   
+5. **Knowledge**
+
+   **File:** portfolio\public\assets\information\knowledgeList.ts
+  
+   **Basic structure:**
+   ```typescript
+    {
+      field: string,
+      order?: number
+    },
+    ```
+   **How to fill:**
+   - field: The field name you want to add;
+   - order: This list will be rendered on the order you set here. It is a number that indicates the code's position in the list,
+      so *don't use quotation marks*. Number 1 will be at the top. This field is not mandatory.
+      If you don't use it, it will be rendered in the same order of the code.
+
+7. **Language**
+
+   **File:** portfolio\public\assets\information\languagesList.ts
+  
+   **Basic structure:**
+   ```typescript
+    {
+      language: string,
+      proficiency: string,
+      order?: number
+    },
+    ```
+   **How to fill:**
+   - language: The language name;
+   - proficiency: Your proficiency. Each language has its own way to order the proficiency levels, so check online for each one;
+   - order: This list will be rendered on the order you set here. It is a number that indicates the code's position in the list,
+      so *don't use quotation marks*. Number 1 will be at the top. This field is not mandatory.
+      If you don't use it, it will be rendered in the same order of the code.
+
+
+9. **Personal Information**
+
+   **File:** portfolio\public\assets\information\personalInfoDetail.ts
+  
+   **Basic structure:**
+   ```typescript
+    {
+      lastName: string,
+      firstName: string,
+      role: string,
+      email: string,
+      phone: string,
+      location: string
+    },
+    ```
+   **How to fill:**
+   - lastName: Your last name/s;
+   - firstName: Your first name/s;
+   - role: Your role;
+   - email: Your personal email;
+   - phone: Your personal phone. Note that this is a string (text) so you can type it in the way you find the most convenient.
+      It will not redirect to a phone communication of any form;
+   - location: The place where you live or will be working from. It will not be linked to a map of any kind; 
+
+
+10. **Skills**
+
+11. **Social Media**
 
 
 ### Web Style
