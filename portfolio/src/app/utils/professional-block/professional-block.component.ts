@@ -13,7 +13,8 @@ export class ProfessionalBlockComponent {
   @Input() link?: string = "";
   @Input() institution: string = "";
   @Input() date: string = "";
+  @Input() place?: string = "";
+  @Input() technologies?: string[] = [];
   @Input() description?: string = "";
-
 
 }
