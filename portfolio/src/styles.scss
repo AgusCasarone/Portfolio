@@ -128,10 +128,13 @@
 
 @layer components {
 
-  .personal { @apply md:w-1/3 misc-primary}
-  .professional { @apply md:w-2/3 bg-main-background-color p-[1rem] rounded-[10px]}
-
   .portfolio-body { @apply  bg-gradient-to-b from-page-backgound-top-gradient via-page-backgound-mid-gradient to-page-backgound-bottom-gradient }
+
+  .personal { @apply md:w-1/3 misc-primary }
+
+  .professional { @apply md:w-2/3 bg-main-background-color p-[1rem] rounded-[10px] }
+  .professional-title { @apply w-[60%] bg-main-block-title-color text-main-background-color pl-[2rem] rounded-[5px] text-500 text-lg }
+  .professional-line { @apply w-[40%] border-main-block-title-color my-auto }
 
   .error {@apply text-red-500 text-sm}
   .info {@apply text-sm}

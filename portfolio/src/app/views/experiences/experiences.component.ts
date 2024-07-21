@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { ProfessionalTitleComponent } from "../../utils/professional-title/professional-title.component";
 
 @Component({
   selector: 'experiences',
   standalone: true,
-  imports: [],
+  imports: [ProfessionalTitleComponent],
   templateUrl: './experiences.component.html',
   styleUrl: './experiences.component.scss'
 })
