@@ -1,3 +1,14 @@
 <professional-title
   [title]="'PROJECTS'"
 />
+@for (project of projectList; track $index) {
+  <professional-block
+    [name]="project.name"
+    [link]="project.link"
+    [description]="project.description"
+    [design]="project.design"
+    [repository]="project.repository"
+    [date]="project.date"
+    [image]="project.image"
+  />
+}

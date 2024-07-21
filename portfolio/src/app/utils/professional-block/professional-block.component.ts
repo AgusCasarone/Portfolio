@@ -16,5 +16,8 @@ export class ProfessionalBlockComponent {
   @Input() place?: string = "";
   @Input() technologies?: string[] = [];
   @Input() description?: string = "";
+  @Input() design?: string = "";
+  @Input() repository?: string = "";
+  @Input() image?: string = "";
 
 }

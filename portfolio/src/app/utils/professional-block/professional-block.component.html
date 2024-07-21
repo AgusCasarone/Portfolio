@@ -16,6 +16,19 @@
     {{ date }} | {{ place }}
   </div>
 
+  @if (design) {
+    <div class="">
+      <a href="{{ design }}" class="underline">Check the design here</a>
+    </div>
+  }
+
+  @if (repository) {
+    <div class="">
+      <a href="{{repository}}" class="underline">Check the repository here</a>
+    </div>
+  }
+
+
   <div class="professional-description">
     {{ description }}
   </div>
@@ -24,4 +37,8 @@
     @for (tech of technologies; track $index) {}
     {{ technologies }}
   </div>
+
+  @if (image) {
+    <img src="image" alt="name" class="mw-100 h-auto">
+  }
 </div>
