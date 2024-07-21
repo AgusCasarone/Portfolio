@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { personalInfoDetail } from '../../../../public/assets/information/personalInfoDetail';
+import { PersonalInfo } from '../../../interfaces/personal-info';
 
 @Component({
   selector: 'identity',
@@ -8,5 +10,7 @@ import { Component } from '@angular/core';
   styleUrl: './identity.component.scss'
 })
 export class IdentityComponent {
+
+  personalInfoDetail: PersonalInfo = personalInfoDetail;
 
 }
