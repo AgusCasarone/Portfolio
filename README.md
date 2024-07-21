@@ -307,7 +307,7 @@ If you need further guidance, here you have the instructions for each block:
 You can customize the colors and font for the page view.
 It is based on this *[Figma Community design](https://www.figma.com/design/F9pH3o2t0Tm3I8yqtDP6zw/CV-color-light-english?node-id=0-1&t=UkZkRJjr50tIRWxX-0)*. If you are or know the author of this design, please let me know so I can tag them properly.
 
-I also used this *[set of icons](https://www.figma.com/design/MG3lOwSBAqHkepaqp2P3JS/Heroicons-(Community)?t=kEf8puTgoyz2K9eU-0)* and this *[palete generator](https://palettte.app/)*.
+I also used the icons from *[Hero Icons](https://heroicons.com/)* and *[Font Awesome](https://fontawesome.com/icons)*, the colors were curated with *[Palettte App](https://palettte.app/)* and the fonts are from *[Google Fonts](https://fonts.google.com/)*.
 
 1. Go to the portfolio\tailwind.config.js file.
 
@@ -325,6 +325,7 @@ I also used this *[set of icons](https://www.figma.com/design/MG3lOwSBAqHkepaqp2
     2. main-title-color: The text color on the main title. For example, institutions' names and role titles.
     3. main-subtitle-color: The text color on the main subtitle. For example, the dates of each position.
     4. main-background-color: The background color on all the Main Part.
+    5. main-block-title-color: The background color of the block name. For example, "EDUCATION".
 
     **MISCELLANEOUS PART**
    
