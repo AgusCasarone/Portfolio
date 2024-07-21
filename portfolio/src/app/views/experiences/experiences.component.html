@@ -1,3 +1,13 @@
 <professional-title
   [title]="'EXPERIENCE'"
 >
+@for (experienceItem of experienceList; track $index) {
+  <professional-block
+    [name]="experienceItem.title"
+    [institution]="experienceItem.institution"
+    [date]="experienceItem.date"
+    [place]="experienceItem.place"
+    [description]="experienceItem.description"
+    [technologies]="experienceItem.technologies"
+  />
+}
