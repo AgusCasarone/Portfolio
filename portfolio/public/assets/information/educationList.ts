@@ -2,7 +2,7 @@ import { Education } from "../../../src/interfaces/education";
 
 export const educationList: Education[] = [
   {
-    title: "Licenciatura en Iformática",
+    title: "Licenciatura en Informática",
     institution: "UNLP",
     date: "2021 - current",
     place: "La Plata, Buenos Aires, Argentina",

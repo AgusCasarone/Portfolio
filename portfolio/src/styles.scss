@@ -136,6 +136,13 @@
   .professional-title { @apply w-[60%] bg-main-block-title-color text-main-background-color pl-[2rem] rounded-[5px] text-500 text-lg }
   .professional-line { @apply w-[40%] border-main-block-title-color my-auto }
 
+  .professional-block { @apply my-[1.5rem] }
+
+  .professional-name { @apply text-main-title-color text-600 my-[-0.5rem] text-pretty}
+  .professional-institution { @apply text-main-title-color my-[-0.5rem] text-pretty}
+  .professional-date { @apply text-main-subtitle-color my-0 text-pretty}
+  .professional-description { @apply text-main-description-color text-pretty }
+
   .error {@apply text-red-500 text-sm}
   .info {@apply text-sm}
   .success {@apply text-green-500 text-sm}
