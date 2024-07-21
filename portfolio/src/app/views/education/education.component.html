@@ -2,5 +2,10 @@
   [title]="'EDUCATION'"
 />
 @for (educationItem of educationList; track $index) {
-
+  <professional-block
+    [name]="educationItem.title"
+    [institution]="educationItem.institution"
+    [date]="educationItem.date"
+    [description]="educationItem.description"
+  />
 }
