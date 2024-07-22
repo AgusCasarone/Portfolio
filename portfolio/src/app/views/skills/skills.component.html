@@ -1,3 +1,13 @@
 <professional-title
   [title]="'MY SKILLS'"
 />
+<div class="grid gap-4 grid-cols-3 grid-rows-3 my-[1rem]">
+  @for (skill of skillList; track $index) {
+    <div class="flex flex-row">
+      <img src="{{ skill.icon }}"
+      alt="{{ skill.name }}"
+      class="w-[20px] max-h-[20px] mx-[0.75rem]">
+      <p class="text-500"> {{ skill.name }} </p>
+    </div>
+  }
+</div>

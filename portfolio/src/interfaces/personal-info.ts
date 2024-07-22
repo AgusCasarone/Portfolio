@@ -4,5 +4,6 @@ export interface PersonalInfo {
   role: string,
   email: string,
   phone: string,
-  location: string
+  location: string,
+  presentation: string
 }

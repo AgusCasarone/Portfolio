@@ -86,7 +86,7 @@ export const experienceList: Experience[] = [
     ]
   },
   {
-    title: "God Groomer - Specialized in Asian Fusion",
+    title: "Dog Groomer - Specialized in Asian Fusion",
     institution: "Laicka Estética Animal",
     date: "Dec 2012 - Sep 2021",
     place: "La Plata, Buenos Aires, Argentina",

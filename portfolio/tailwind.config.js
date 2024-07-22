@@ -19,6 +19,7 @@ module.exports = {
 
         'misc-primary-color': 'rgba(255, 255, 255, 1)',
         'misc-secondary-color': 'rgba(206, 202, 202, 1)',
+        'misc-higlight-color': 'rgba(196, 196, 196, 0.35)',
 
         'page-backgound-top-gradient': 'rgba(3, 56, 244, 0.71)',
         'page-backgound-mid-gradient': 'rgba(111, 47, 225, 0.7491)',

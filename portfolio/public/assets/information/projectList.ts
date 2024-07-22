@@ -10,7 +10,7 @@ export const projectList: Project[] = [
     repository: 'https://github.com/AgusCasarone/eJam-challenge',
     design: 'https://www.figma.com/design/gHf56mhtFr0lXky0poofoQ/ejam---Clarifion-Upsell-%5B-Client-V-%5D-(Copy)?node-id=0-1&t=ErPOr9kcDMPXakqX-0',
     date: 'Jun 2024',
-    image: 'assets/images/projects/ejam.svg'
+    image: 'assets/images/projects/ejam.png'
   },
   {
     name: "Portfolio + CV",
