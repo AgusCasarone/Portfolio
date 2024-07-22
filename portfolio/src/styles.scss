@@ -140,12 +140,13 @@
 
   .professional-block { @apply my-[1.5rem] }
 
-  .professional-name { @apply text-main-title-color text-600 my-[-0.5rem] text-pretty }
-  .professional-institution { @apply text-main-title-color my-[-0.5rem] text-pretty }
-  .professional-date { @apply text-main-subtitle-color my-0 text-pretty flex }
+  .professional-name { @apply text-main-title-color text-600 mb-[-0.1rem] text-pretty }
+  .professional-institution { @apply text-main-title-color my-[-0.1rem] text-pretty }
+  .professional-date { @apply text-main-subtitle-color my-[-0.1rem] text-pretty flex }
   .professional-date-items { @apply text-400 }
   .professional-description { @apply text-main-description-color text-pretty }
-  .professional-technologies { @apply grid grid-cols-3 grid-rows-3 }
+  .professional-technologies { @apply grid gap-2 grid-cols-2 md:grid-cols-3 grid-rows-3 my-[1rem]}
+  .project-image { @apply max-w-full lg:max-w-lg h-auto mx-auto }
 
   .error {@apply text-red-500 text-sm}
   .info {@apply text-sm}
