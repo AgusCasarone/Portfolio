@@ -333,7 +333,8 @@ I also used the icons from *[Hero Icons](https://heroicons.com/)* and *[Font Awe
 
     1. misc-primary-color: The text and icon color for almost everything.
     2. misc-secondary-color: The text and icon color for the last name, position and abled proficiency points.
-    3. misc-teriary-color: The text and icon color for the disabled proficiency points.
+    3. misc-teriary-color: The text and icon color for the disabled parts of the personal information block.
+    4. misc-higlight-color: The background color for each block on the personal information block.
     
     **BACKGROUND GRADIENT**
    
