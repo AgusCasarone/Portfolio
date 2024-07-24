@@ -134,8 +134,8 @@
   .presentation { @apply my-[0.75rem] text-500 text-main-description-color text-pretty  }
 
   .professional { @apply md:w-2/3 bg-main-background-color p-[1rem] rounded-[10px] }
-  .professional-title { @apply w-[60%] bg-main-block-title-color text-main-background-color pl-[2rem] rounded-[5px] text-500 text-lg }
-  .professional-line { @apply w-[40%] border-main-block-title-color my-auto }
+  .professional-title { @apply w-[60%]  md:w-[40%] flex justify-between bg-main-block-title-color text-main-background-color pl-[2rem] rounded-[5px] text-500 text-lg }
+  .professional-line { @apply w-[40%]  md:w-[60%] border-main-block-title-color my-auto }
 
   .professional-block { @apply my-[1.5rem] }
 
@@ -150,6 +150,9 @@
   .error {@apply text-red-500 text-sm}
   .info {@apply text-sm}
   .success {@apply text-green-500 text-sm}
+  .toggle-chevron { @apply m-[2px] border rounded-full p-[2px] transition-transform duration-300}
+  toggle-chevron { @apply  m-[2px] justify-items-center items-center}
+  // .rotate-180 { @apply border-[5px] }
 
   .misc-secondary { @apply text-misc-secondary-color text-400 }
   .misc-primary { @apply text-misc-primary-color }

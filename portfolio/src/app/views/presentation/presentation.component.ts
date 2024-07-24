@@ -13,5 +13,9 @@ import { PersonalInfo } from '../../../interfaces/personal-info';
 export class PresentationComponent {
 
   personalInfoDetail: PersonalInfo = personalInfoDetail;
+  isToggled: boolean = false;
 
+  onToggle(isToggled: boolean) {
+    this.isToggled = isToggled;
+  }
 }

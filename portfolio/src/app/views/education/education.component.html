@@ -1,13 +1,17 @@
 <professional-title
   [title]="'EDUCATION'"
+  (toggle)="onToggle($event)"
 />
-@for (educationItem of educationList; track $index) {
-  <professional-block
-    [name]="educationItem.title"
-    [institution]="educationItem.institution"
-    [link]="educationItem.link"
-    [date]="educationItem.date"
-    [place]="educationItem.place"
-    [description]="educationItem.description"
-  />
+
+@if(!isToggled){
+  @for (educationItem of educationList; track $index) {
+    <professional-block
+      [name]="educationItem.title"
+      [institution]="educationItem.institution"
+      [link]="educationItem.link"
+      [date]="educationItem.date"
+      [place]="educationItem.place"
+      [description]="educationItem.description"
+    />
+  }
 }

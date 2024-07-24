@@ -1,7 +1,10 @@
-<div class="flex flex-row">
+<div class="flex flex-row"
+(click)="onToggle()"
+[class.mb-[5px]]="isToggled">
   <div class="professional-title">
     {{ title }}
+    <toggle-chevron
+    [isToggled]="isToggled"/>
   </div>
   <hr class="professional-line">
 </div>
-

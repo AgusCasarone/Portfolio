@@ -1,13 +1,17 @@
 <professional-title
   [title]="'MY SKILLS'"
+  (toggle)="onToggle($event)"
 />
-<div class="grid gap-4 grid-cols-2 md:grid-cols-3 grid-rows-3 my-[1rem]">
-  @for (skill of skillList; track $index) {
-    <div class="flex flex-row">
-      <img src="{{ skill.icon }}"
-      alt="{{ skill.name }}"
-      class="w-[20px] max-h-[20px] mr-[0.75rem]">
-      <p class="text-500"> {{ skill.name }} </p>
-    </div>
-  }
-</div>
+
+@if(!isToggled){
+  <div class="grid gap-4 grid-cols-2 md:grid-cols-3 grid-rows-3 my-[1rem]">
+    @for (skill of skillList; track $index) {
+      <div class="flex flex-row">
+        <img src="{{ skill.icon }}"
+        alt="{{ skill.name }}"
+        class="w-[20px] max-h-[20px] mr-[0.75rem]">
+        <p class="text-500"> {{ skill.name }} </p>
+      </div>
+    }
+  </div>
+}

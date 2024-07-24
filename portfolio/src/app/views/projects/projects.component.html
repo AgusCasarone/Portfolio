@@ -1,14 +1,18 @@
 <professional-title
   [title]="'PROJECTS'"
+  (toggle)="onToggle($event)"
 />
-@for (project of projectList; track $index) {
-  <professional-block
-    [name]="project.name"
-    [link]="project.link"
-    [description]="project.description"
-    [design]="project.design"
-    [repository]="project.repository"
-    [date]="project.date"
-    [image]="project.image"
-  />
+
+@if(!isToggled){
+  @for (project of projectList; track $index) {
+    <professional-block
+      [name]="project.name"
+      [link]="project.link"
+      [description]="project.description"
+      [design]="project.design"
+      [repository]="project.repository"
+      [date]="project.date"
+      [image]="project.image"
+    />
+  }
 }

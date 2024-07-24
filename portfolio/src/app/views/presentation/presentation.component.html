@@ -1,4 +1,8 @@
 <professional-title
   [title]="'WHO AM I'"
+  (toggle)="onToggle($event)"
 />
+
+@if(!isToggled){
 <p class="presentation"> {{ personalInfoDetail.presentation }} </p>
+}

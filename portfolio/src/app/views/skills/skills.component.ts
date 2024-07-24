@@ -14,5 +14,9 @@ import { Skill } from '../../../interfaces/skill';
 export class SkillsComponent {
 
   skillList: Skill[] = skillList;
+  isToggled: boolean = false;
 
+  onToggle(isToggled: boolean) {
+    this.isToggled = isToggled;
+  }
 }

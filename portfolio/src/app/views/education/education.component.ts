@@ -14,5 +14,9 @@ import { ProfessionalBlockComponent } from "../../utils/professional-block/profe
 export class EducationComponent {
 
   educationList: Education[] = educationList;
+  isToggled: boolean = false;
 
+  onToggle(isToggled: boolean) {
+    this.isToggled = isToggled;
+  }
 }

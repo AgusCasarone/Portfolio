@@ -15,4 +15,9 @@ export class ExperiencesComponent {
 
   experienceList: Experience[] = experienceList;
 
+  isToggled: boolean = false;
+
+  onToggle(isToggled: boolean) {
+    this.isToggled = isToggled;
+  }
 }
