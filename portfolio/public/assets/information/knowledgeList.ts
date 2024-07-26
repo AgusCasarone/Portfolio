@@ -1,9 +1,6 @@
-import { Knowledge } from "../../../src/interfaces/knoweledge";
+import { Knowledge } from "../../../src/interfaces/knowledge";
 
 export const knowledgeList: Knowledge[] = [
-  {
-    field: "UX/UI"
-  },
   {
     field: "Back-End Development"
   },
@@ -11,9 +8,15 @@ export const knowledgeList: Knowledge[] = [
     field: "Front-End Development"
   },
   {
-    field: "Responsive Web Design"
+    field: "Data Base Design"
   },
   {
-    field: "Data Base Design and Management"
+    field: "Data Base Management"
+  },
+  {
+    field: "UX/UI"
+  },
+  {
+    field: "Responsive Web Design"
   },
 ]

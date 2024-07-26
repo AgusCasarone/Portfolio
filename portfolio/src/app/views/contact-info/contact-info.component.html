@@ -1,1 +1,8 @@
-<p>contact-info works!</p>
+<div class="contact-info-container">
+  <personal-block
+    [email]="personalInfoDetail.email"
+    [phone]="personalInfoDetail.phone"
+    [phoneLink]="personalInfoDetail.phoneLink ? personalInfoDetail.phoneLink.toString() : ''"
+    [location]="personalInfoDetail.location"
+  />
+</div>

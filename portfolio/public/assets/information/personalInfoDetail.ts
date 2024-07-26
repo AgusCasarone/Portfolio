@@ -6,6 +6,7 @@ export const personalInfoDetail: PersonalInfo = {
   role: "Back End - Full Stack Developer",
   email: "agus.casarone@gmail.com",
   phone: "+549 221 436 9046",
+  phoneLink: 542214369046,
   location: "La Plata, Buenos Aires, Argentina",
   presentation: "👋 Hi there! I'm Agustina Casarone, " +
     "\na passionate Full Stack Developer from La Plata, Argentina, " +
