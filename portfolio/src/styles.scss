@@ -144,6 +144,7 @@
   .professional-date { @apply text-main-subtitle-color my-[-0.1rem] text-pretty flex }
   .professional-date-items { @apply text-400 }
   .professional-description { @apply text-main-description-color text-pretty }
+  .professional-skills { @apply grid gap-4 grid-cols-2 md:grid-cols-3 grid-rows-3 my-[1rem] }
   .professional-technologies { @apply grid gap-2 grid-cols-2 md:grid-cols-3 grid-rows-3 my-[1rem] text-pretty }
   .project-image { @apply max-w-full lg:max-w-lg h-auto mx-auto }
 
@@ -166,5 +167,9 @@
   .language-table { @apply table-auto border-misc-secondary-color w-full }
   .language-table-body { @apply w-full }
   .language-table-item { @apply w-[50%] }
+  .hobby-container { @apply grid gap-2 grid-cols-3 md:grid-cols-2 justify-items-center items-center text-pretty }
+  .hobby-item { @apply flex flex-col justify-items-center items-center text-pretty my-auto }
+  .hobby-image-container { @apply h-[3rem] justify-items-center self-center text-pretty }
+  .hobby-image { @apply justify-items-center h-[2.8rem] my-auto text-misc-primary-color }
 
 }

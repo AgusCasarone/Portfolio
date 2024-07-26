@@ -4,7 +4,7 @@
 />
 
 @if(!isToggled){
-  <div class="grid gap-4 grid-cols-2 md:grid-cols-3 grid-rows-3 my-[1rem]">
+  <div class="professional-skills">
     @for (skill of skillList; track $index) {
       <div class="flex flex-row">
         <img src="{{ skill.icon }}"

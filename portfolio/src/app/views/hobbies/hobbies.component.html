@@ -1,1 +1,17 @@
-<p>hobbies works!</p>
+<div class="personal-info-block">
+  <h3>Hobbies</h3>
+
+  <div class="hobby-container">
+    @for (hobby of hobbyList; track $index) {
+      <div class="hobby-item">
+        <div class="hobby-image-container">
+          <img src="{{ hobby.image }}" alt="{{ hobby.title }}" class="hobby-image">
+        </div>
+        <div class="hobby-title">
+          <p> {{ hobby.title }} </p>
+        </div>
+      </div>
+    }
+  </div>
+
+</div>
