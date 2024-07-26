@@ -1,1 +1,11 @@
-<p>social works!</p>
+<div class="personal-info-block">
+  <h3>Social Media</h3>
+
+  <ul class="personal-list">
+    @for (social of socialMediaList; track $index) {
+      <li class="social">
+        <a href="{{ social.url }}" target="_blank" class="underline">{{ social.socialMedia }}</a>
+      </li>
+    }
+  </ul>
+</div>

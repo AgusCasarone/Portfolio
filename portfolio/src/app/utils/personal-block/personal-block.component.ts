@@ -11,11 +11,6 @@ export class PersonalBlockComponent {
 
   @Input() title?: string;
   @Input() stringList?: string[];
-  @Input() linkList?: string[];
-  @Input() imageLink?: string[];
-  @Input() email?: string;
-  @Input() phone?: string;
-  @Input() phoneLink?: string;
-  @Input() location?: string;
+  @Input() imageLinkList?: string[];
 
 }

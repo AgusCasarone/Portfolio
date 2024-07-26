@@ -1,7 +1,7 @@
 <div class="professional-block">
   <h3 class="professional-name">
     @if (link) {
-      <a href="{{ link }}" class="underline">{{ name }}</a>
+      <a href="{{ link }}" class="underline" target="_blank">{{ name }}</a>
     }
     @else {
       {{ name }}
@@ -26,13 +26,13 @@
 
   @if (design) {
     <div class="underline">
-      <a href="{{ design }}" class="underline">Check the design here</a>
+      <a href="{{ design }}" class="underline" target="_blank">Check the design here</a>
     </div>
   }
 
   @if (repository) {
     <div class="underline">
-      <a href="{{repository}}" class="underline">Check the repository here</a>
+      <a href="{{repository}}" class="underline" target="_blank">Check the repository here</a>
     </div>
   }
 

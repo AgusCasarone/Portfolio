@@ -2,23 +2,28 @@ import { Skill } from '../../../src/interfaces/skill';
 export const skillList: Skill[] = [
   {
     name: 'Java',
-    icon: 'assets/images/skills/java.svg'
+    icon: 'assets/images/skills/java.svg',
+    order: 1
   },
   {
     name: 'AngularTS',
-    icon: 'assets/images/skills/angular.svg'
+    icon: 'assets/images/skills/angular.svg',
+    order: 2
   },
   {
     name: 'SQL',
-    icon: 'assets/images/skills/sql.svg'
+    icon: 'assets/images/skills/sql.svg',
+    order: 3
   },
   {
     name: 'JavaScript',
-    icon: 'assets/images/skills/javascript.svg'
+    icon: 'assets/images/skills/javascript.svg',
+    order: 4
   },
   {
     name: 'TypeScript',
-    icon: 'assets/images/skills/typescript.svg'
+    icon: 'assets/images/skills/typescript.svg',
+    order: 5
   },
   {
     name: 'Quarkus',
@@ -26,11 +31,13 @@ export const skillList: Skill[] = [
   },
   {
     name: 'React',
-    icon: 'assets/images/skills/react.svg'
+    icon: 'assets/images/skills/react.svg',
+    order: 6
   },
   {
     name: 'Docker',
-    icon: 'assets/images/skills/docker.svg'
+    icon: 'assets/images/skills/docker.svg',
+    order: 7
   },
   {
     name: 'Kubernetes',

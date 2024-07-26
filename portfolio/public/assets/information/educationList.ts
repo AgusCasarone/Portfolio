@@ -47,7 +47,7 @@ export const educationList: Education[] = [
     description: "Harvard University's introductory course in computer science and programming. " +
       "Gained a robust understanding of computer science concepts such as abstraction, algorithms, data structures, encapsulation, " +
       "resource management, security, software engineering, and web development. Strong knowledge in languages including C, Python, " +
-      "SQL and JavaScript, with practical experience in real-world inspired problem sets and a final programming project."
+      "SQL and JavaScript, with practical experience in real-world inspired problem sets and a final programming project.",
   },
   {
     title: "100 Days of Code: The Complete Python Pro Bootcamp ",
