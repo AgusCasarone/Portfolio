@@ -4,7 +4,7 @@
   <ul class="personal-list">
     @for (social of socialMediaList; track $index) {
       <li class="social">
-        <a href="{{ social.url }}" target="_blank" class="underline">{{ social.socialMedia }}</a>
+        <a href="{{ social.url }}" target="_blank" rel="noopener noreferrer" class="underline">{{ social.socialMedia }}</a>
       </li>
     }
   </ul>
