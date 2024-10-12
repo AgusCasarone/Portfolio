@@ -23,7 +23,7 @@ export class DownloadComponent {
   }
 
   onDownload(): SafeUrl {
-    const dataUrl = 'data:image/jpeg;base64,';
+    const dataUrl = 'data:CV-AgustinaCasarone-English-SEP2024.pdf;base64,';
     console.log("deberia descargar")
     return this.sanitizer.bypassSecurityTrustUrl(dataUrl + this.image);
   }
