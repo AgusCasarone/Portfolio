@@ -117,6 +117,7 @@
 }
 
 @layer base {
+  a {@apply text-main-title-color underline};
   h1 {@apply text-[50px] leading-[50px] title-600 mb-1};
   h2 {@apply text-4xl title-600 mb-1};
   h3 {@apply text-2xl title-600 mb-1};
@@ -136,8 +137,8 @@
 
   .presentation { @apply my-[0.75rem] text-500 text-main-description-color text-pretty  }
 
-  .professional { @apply md:w-full bg-main-background-color p-[1rem] rounded-[10px] }
-  .professional-title { @apply w-[60%]  md:w-[60%] lg:w-[50%] flex justify-between bg-main-block-title-color text-main-background-color pl-[2rem] rounded-[5px] text-500 text-lg }
+  .professional { @apply md:w-full bg-main-background-color/75 p-[1rem] rounded-[10px] }
+  .professional-title { @apply w-[60%]  md:w-[60%] lg:w-[50%] flex justify-between bg-main-block-title-color text-main-title-color pl-[2rem] rounded-[5px] text-500 text-lg }
   .professional-line { @apply w-[40%]  md:w-[50%] lg:w-[60%] border-main-block-title-color my-auto }
 
   .professional-block { @apply my-[1.5rem] }
@@ -147,8 +148,8 @@
   .professional-date { @apply text-main-subtitle-color my-[-0.1rem] text-pretty flex }
   .professional-date-items { @apply text-400 }
   .professional-description { @apply text-main-description-color text-pretty }
-  .professional-skills { @apply grid gap-4 grid-cols-2 md:grid-cols-3 grid-rows-3 my-[1rem] }
-  .professional-technologies { @apply grid gap-2 grid-cols-2 md:grid-cols-3 grid-rows-3 my-[1rem] text-pretty }
+  .professional-skills { @apply grid gap-4 grid-cols-2 md:grid-cols-3 grid-rows-3 my-[1rem] text-main-description-color }
+  .professional-technologies { @apply grid gap-1 grid-cols-2 md:grid-cols-3 grid-rows-3 md:p-[1rem] text-pretty text-main-description-color }
   .project-image { @apply max-w-full lg:max-w-lg h-auto mx-auto }
 
   .error {@apply text-red-500 text-sm}
