@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@types/pdfmake": "^0.2.9",
+    "pdfmake": "^0.2.14"
+  }
+}
