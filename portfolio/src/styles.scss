@@ -135,7 +135,9 @@
 
   .personal { @apply pr-[2rem] misc-primary }
 
-  .presentation { @apply my-[0.75rem] text-500 text-main-description-color text-pretty  }
+  .presentation { @apply border-[1px] rounded border-main-title-color my-[1rem] p-[1rem] text-main-description-color transition ease-in-out delay-150 bg-page-backgound-mid-gradient-light/20 hover:-translate-y-1 hover:scale-105 hover:bg-gradient-to-br hover:from-page-backgound-top-gradient-light/15 hover:via-page-backgound-mid-gradient-light/15 hover:to-page-backgound-bottom-gradient-light/15 duration-300 motion-reduce:transition-none motion-reduce:hover:transform-none }
+  .presentation-title { @apply my-[0.75rem] text-700 text-main-description-color text-pretty text-[1.5rem] leading-[2rem] }
+  .presentation-description { @apply text-[1.5rem] my-[0.5rem] leading-[1.5rem] text-justify }
 
   .professional { @apply md:w-full bg-main-background-color/75 p-[1rem] rounded-[10px] }
   .professional-title { @apply w-[60%]  md:w-[60%] lg:w-[50%] flex justify-between bg-main-block-title-color text-main-title-color pl-[2rem] rounded-[5px] text-500 text-lg }

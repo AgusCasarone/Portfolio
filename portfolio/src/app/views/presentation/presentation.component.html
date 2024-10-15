@@ -4,5 +4,10 @@
 />
 
 @if(!isToggled){
-<p class="presentation"> {{ personalInfoDetail.presentation }} </p>
+<article class="presentation">
+  <h2> {{ presentation.title }} </h2>
+  <p class="presentation-description"> {{ presentation.description }} </p>
+  <h3> 💻 Professional Background </h3>
+  <p> {{ presentation.proffesionalBackground }} </p>
+</article>
 }

@@ -1,3 +1,5 @@
+import { Presentation } from "./presentation";
+
 export interface PersonalInfo {
   lastName: string,
   firstName: string,
@@ -6,5 +8,5 @@ export interface PersonalInfo {
   phone: string,
   phoneLink?: number,
   location: string,
-  presentation: string
+  presentation: Presentation
 }
