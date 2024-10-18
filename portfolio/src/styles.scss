@@ -123,7 +123,7 @@
   h3 {@apply text-2xl title-600 mb-1};
   h4 {@apply text-lg title-500 mb-1};
   h5 {@apply text-base title-500 mb-1 leading-4   };
-  h6, p, span, thead {@apply text-400 text-sm mb-1 };
+  h6, p, span, thead, button {@apply text-400 text-sm mb-1 text-main-title-color };
 }
 
 @layer components {
@@ -135,7 +135,7 @@
 
   .personal { @apply pr-[2rem] misc-primary }
 
-  .presentation { @apply border-[1px] rounded border-main-title-color my-[1rem] p-[1rem] text-main-description-color transition ease-in-out delay-150 bg-page-backgound-mid-gradient-light/20 hover:-translate-y-1 hover:scale-105 hover:bg-gradient-to-br hover:from-page-backgound-top-gradient-light/15 hover:via-page-backgound-mid-gradient-light/15 hover:to-page-backgound-bottom-gradient-light/15 duration-300 motion-reduce:transition-none motion-reduce:hover:transform-none }
+  // .presentation { @apply border-[1px] rounded border-main-title-color my-[1rem] p-[1rem] text-main-description-color transition ease-in-out delay-150 bg-page-backgound-mid-gradient-light/20 hover:-translate-y-1 hover:scale-105 hover:bg-gradient-to-br hover:from-page-backgound-top-gradient-light/15 hover:via-page-backgound-mid-gradient-light/15 hover:to-page-backgound-bottom-gradient-light/15 duration-300 motion-reduce:transition-none motion-reduce:hover:transform-none }
   .presentation-title { @apply my-[0.75rem] text-700 text-main-description-color text-pretty text-[1.5rem] leading-[2rem] }
   .presentation-description { @apply text-[1.5rem] my-[0.5rem] leading-[1.5rem] text-justify }
 

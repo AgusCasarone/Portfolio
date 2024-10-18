@@ -4,10 +4,16 @@
 />
 
 @if(!isToggled){
-<article class="presentation">
-  <h2> {{ presentation.title }} </h2>
-  <p class="presentation-description"> {{ presentation.description }} </p>
-  <h3> 💻 Professional Background </h3>
-  <p> {{ presentation.proffesionalBackground }} </p>
-</article>
+  <article class="presentation">
+    <span class="presentation_lg">
+        <span class="presentation_sl"></span>
+        <span class="presentation_text">
+          <h2> {{ presentation.title }} </h2>
+          <p class="presentation-description"> {{ presentation.description }} </p>
+          <h3> 💻 Professional Background </h3>
+          <p> {{ presentation.proffesionalBackground }} </p>
+        </span>
+    </span>
+  </article>
+
 }
