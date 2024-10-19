@@ -19,7 +19,7 @@
 .cube {
   transition: all 0.4s;
   transform-style: preserve-3d;
-  width: 200px;
+  width: 7rem;
   height: 1rem;
 }
 
@@ -34,7 +34,7 @@
 .side {
   position: absolute;
   height: 40px;
-  width: 200px;
+  width: 7rem;
   display: flex;
   font-size: 0.8em;
   justify-content: center;

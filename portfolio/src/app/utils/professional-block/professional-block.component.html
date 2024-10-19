@@ -1,11 +1,6 @@
 <div class="professional-block">
   <h3 class="professional-name">
-    @if (link) {
-      <a href="{{ link }}" class="link" target="_blank" rel="noopener noreferrer">{{ name }}</a>
-    }
-    @else {
       {{ name }}
-    }
   </h3>
 
   <h4 class="professional-institution">
@@ -24,17 +19,27 @@
     </div>
   </div>
 
-  @if (design) {
-    <div class="underline">
-      <a href="{{ design }}" class="link" target="_blank" rel="noopener noreferrer">Check the design here</a>
-    </div>
-  }
+  <div class="lg:flex lg:row lg:justify-between ">
+    @if (link) {
+      <link-button
+      class="lg:mb-0 mb-[5px]"
+      [link]="link"/>
+    }
 
-  @if (repository) {
-    <div class="underline">
-      <a href="{{repository}}" class="link" target="_blank" rel="noopener noreferrer">Check the repository here</a>
-    </div>
-  }
+    @if (design) {
+      <link-button
+      class="lg:mb-0 mb-[5px]"
+      [link]="design"
+      [design]="true"/>
+    }
+
+    @if (repository) {
+      <link-button
+      class="lg:mb-0 mb-[5px]"
+      [link]="repository"
+      [repository]="true"/>
+    }
+  </div>
 
 
   <div class="professional-description">
