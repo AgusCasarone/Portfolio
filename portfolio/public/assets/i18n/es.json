@@ -1,3 +1,91 @@
 {
-  "texto": "texto en español"
+  "texto": "texto en español",
+  "experience": {
+    "full_stack_developer_radar": {
+      "title": "Desarrollador Full Stack - AngularTS, Java, SQL",
+      "institution": "ITR | Proyecto Radar",
+      "date": "Abr 2024 - Jul 2024",
+      "place": "Remoto - Argentina",
+      "description": "Diseño, desarrollo y construcción de un sistema de organización de tareas y categorización de proyectos.",
+      "technologies": {
+        "java": "Java 11",
+        "angular": "AngularTS 17",
+        "api_rest": "API REST",
+        "spring_boot": "Spring Boot",
+        "spring_security": "Spring Security",
+        "jpa": "JPA para persistencia de datos",
+        "log4j": "Log4J para registro de logs",
+        "lombok": "Lombok",
+        "spring_actuator": "Spring Actuator para monitoreo del estado del servicio",
+        "retrofit": "Retrofit para configurar conexiones a servicios REST externos",
+        "mapstruct": "MapStruct para mapear entidades a DTO",
+        "openapi": "OpenAPI para generar documentación en línea de los endpoints REST",
+        "gitlab_ci": "Pipeline CI de GitLab definido",
+        "tailwind": "Tailwind"
+      }
+    },
+    "technical_workshop_java": {
+      "title": "Talleres Técnicos - Hilos Virtuales vs Hilos de Plataforma en Java 17",
+      "institution": "ITR",
+      "date": "Jun 2024",
+      "place": "Remoto - Argentina",
+      "description": "Investigación, preparación del contenido y entrega de un taller para ITR, comparando las cualidades y usos de los hilos virtuales y los hilos de plataforma en Java."
+    },
+    "technical_workshop_react": {
+      "title": "Talleres Técnicos - Taller de React 18",
+      "institution": "ITR",
+      "date": "Jul 2024",
+      "place": "Remoto - Argentina",
+      "description": "Realización de un taller comparando React 18 con Angular 17, discutiendo las diferencias entre React puro y React con Next.js, las nuevas características de la versión 18 y los requisitos para actualizar un proyecto de una versión anterior de React."
+    },
+    "full_stack_developer_solistica": {
+      "title": "Desarrollador Full Stack - AngularTS, Java, SQL",
+      "institution": "ITR - GTIM | Proyecto SolisticaONE",
+      "date": "Dic 2023 - Mar 2024",
+      "place": "Remoto - Argentina, México",
+      "description": "Desarrollo de un sistema de gestión empresarial que abarca la entrega de servicios, gestión de clientes, envíos de productos y gestión del transporte de mercancías.",
+      "technologies": {
+        "java": "Java 17",
+        "kafka": "Apache Kafka",
+        "angular": "AngularTS 15",
+        "sql": "SQL",
+        "rest": "API REST",
+        "quarkus": "Quarkus",
+        "docker": "Docker",
+        "podman": "Podman",
+        "nextjs": "NextJS",
+        "node": "Node.js"
+      }
+    },
+    "full_stack_developer_fenix": {
+      "title": "Desarrollador Full Stack - AngularTS, Java, SQL",
+      "institution": "ITR | Proyecto Fénix",
+      "date": "Ene 2023 - Dic 2023",
+      "place": "Remoto - Argentina",
+      "description": "Software de Gestión Empresarial in-company. Tenemos reuniones diarias y utilizamos metodologías ágiles para asegurar la mejor experiencia para nuestros usuarios.",
+      "technologies": {
+        "java": "Java 11",
+        "angular": "AngularTS",
+        "sql": "SQL",
+        "hibernate": "Hibernate",
+        "rest": "API REST",
+        "spring": "Spring",
+        "spring_boot": "Spring Boot",
+        "spring_security": "Spring Security",
+        "jpa": "JPA para persistencia de datos",
+        "log4j": "Log4J para registro de logs",
+        "lombok": "Lombok",
+        "mybatis": "myBatis",
+        "gitlab_ci": "Pipeline CI de GitLab definido"
+      }
+    },
+    "dog_groomer": {
+      "title": "Peluquera Canina - Especializada en Fusión Asiática",
+      "institution": "Laicka Estética Animal",
+      "date": "Dic 2012 - Sep 2021",
+      "place": "La Plata, Buenos Aires, Argentina",
+      "description": "Aprendí a interactuar con mis clientes (tanto perros como humanos), comunicar mis ideas a alguien que no conoce el lenguaje técnico del trabajo, adaptar mi estilo a diferentes personas, utilizar mis habilidades de diversas maneras y combinar mis conocimientos en diferentes áreas para obtener los mejores resultados."
+    }
+  }
 }
+

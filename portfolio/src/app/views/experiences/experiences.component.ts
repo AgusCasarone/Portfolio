@@ -3,11 +3,16 @@ import { ProfessionalTitleComponent } from "../../utils/professional-title/profe
 import { experienceList } from '../../../../public/assets/information/experienceList';
 import { Experience } from '../../../interfaces/experience';
 import { ProfessionalBlockComponent } from "../../utils/professional-block/professional-block.component";
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'experiences',
   standalone: true,
-  imports: [ProfessionalTitleComponent, ProfessionalBlockComponent],
+  imports: [
+    ProfessionalTitleComponent,
+    ProfessionalBlockComponent,
+    TranslateModule
+  ],
   templateUrl: './experiences.component.html',
   styleUrl: './experiences.component.scss'
 })

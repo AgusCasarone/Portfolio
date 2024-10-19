@@ -128,8 +128,11 @@
 
 @layer components {
 
-  .portfolio-nav-bar { @apply bg-main-background-color/95 text-main-background-color h-[3rem] flex flex-row items-center justify-end px-[2rem] }
-  .nav-button { @apply cursor-pointer h-[1.5rem] w-auto mx-[0.5rem] }
+  portfolio-nav-bar { @apply fixed bottom-[1.5rem] right-[1.5rem] flex }
+
+  .portfolio-nav-bar { @apply bg-main-background-color/95 text-main-background-color px-[2rem] }
+  .nav-button { @apply cursor-pointer h-[1.5rem] w-auto my-[0.5rem] justify-items-center }
+  .language-toggle-list { @apply w-min }
 
   .portfolio-body { @apply  bg-gradient-to-b from-page-backgound-top-gradient via-page-backgound-mid-gradient to-page-backgound-bottom-gradient }
 

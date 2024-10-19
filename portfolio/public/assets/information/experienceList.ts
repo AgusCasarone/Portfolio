@@ -1,97 +1,88 @@
 import { Experience } from "../../../src/interfaces/experience";
-
 export const experienceList: Experience[] = [
   {
-    title: "Full Stack Developer - AngularTS, Java, SQL",
-    institution: "ITR | Project Radar",
-    date: "Apr 2024 - Jul 2024",
-    place: "Remote - Argentina",
-    description: "Design, development and construction of a task organization and project categorization system." +
-      "\n Responsible for technology selection, software design and development, and unit testing.",
+    title: 'experience.full_stack_developer_radar.title',
+    institution: 'experience.full_stack_developer_radar.institution',
+    date: 'experience.full_stack_developer_radar.date',
+    place: 'experience.full_stack_developer_radar.place',
+    description: 'experience.full_stack_developer_radar.description',
     technologies: [
-      "Java 11",
-      "AngularTS 17",
-      "API REST",
-      "Built on Spring Boot",
-      "Spring Security",
-      "JPA for data persistence",
-      "Log4J for logging",
-      "Lombok",
-      "Spring Actuator for service health checking",
-      "Retrofit for configuring connections to external REST services",
-      "MapStruct for entity to DTO mapping",
-      "OpenAPI for generating online documentation of REST endpoints",
-      "GitLab CI pipeline defined",
-      "Tailwind",
-    ],
-  },
-  {
-    title: "Technical Workshops - Virtual Threads vs Platform Threads in Java 17",
-    institution: "ITR",
-    date: "Jun 2024",
-    place: "Remote - Argentina",
-    description: "Researched, prepared the curriculum, and delivered a workshop for ITR, " +
-      "comparing the qualities and uses of virtual threads and platform threads in Java."
-  },
-  {
-    title: "Technical Workshops - React 18 Workshop",
-    institution: "ITR",
-    date: "Jul 2024",
-    place: "Remote - Argentina",
-    description: "Conducted a workshop comparing React 18 with Angular 17, " +
-      "discussing the differences between vanilla React and React with Next.js, " +
-      "the new features of version 18, and the requirements for updating a project from an earlier version of React."
-  },
-  {
-    title: "Full Stack Developer - AngularTS, Java, SQL",
-    institution: "ITR - GTIM | Project SolisticaONE",
-    date: "Dec 2023 - Mar 2024",
-    place: "Remote - Argentina, Mexico",
-    description: "-Development of a business management system covering Service Delivery, " +
-      "Client Management, Product Shipments, and Goods Travel Management.",
-    technologies: [
-      "Java 17",
-      "Apache Kafka",
-      "AngularTS 15",
-      "SQL",
-      "API REST",
-      "Quarkus",
-      "Docker",
-      "Podman",
-      "NextJS",
-      "node",
+      'experience.full_stack_developer_radar.technologies.java',
+      'experience.full_stack_developer_radar.technologies.angular',
+      'experience.full_stack_developer_radar.technologies.api_rest',
+      'experience.full_stack_developer_radar.technologies.spring_boot',
+      'experience.full_stack_developer_radar.technologies.spring_security',
+      'experience.full_stack_developer_radar.technologies.jpa',
+      'experience.full_stack_developer_radar.technologies.log4j',
+      'experience.full_stack_developer_radar.technologies.lombok',
+      'experience.full_stack_developer_radar.technologies.spring_actuator',
+      'experience.full_stack_developer_radar.technologies.retrofit',
+      'experience.full_stack_developer_radar.technologies.mapstruct',
+      'experience.full_stack_developer_radar.technologies.openapi',
+      'experience.full_stack_developer_radar.technologies.gitlab_ci',
+      'experience.full_stack_developer_radar.technologies.tailwind'
     ]
   },
   {
-    title: "Full Stack Developer - AngularTS, Java, SQL",
-    institution: "ITR | Project Fénix",
-    date: "Jan 2023 - Dec 2023",
-    place: "Remote - Argentina",
-    description: "An in-company Enterprise Management Software. We have daily meetings and use agile methodologies " +
-      "to ensure the best experience to our users",
+    title: 'experience.technical_workshop_java.title',
+    institution: 'experience.technical_workshop_java.institution',
+    date: 'experience.technical_workshop_java.date',
+    place: 'experience.technical_workshop_java.place',
+    description: 'experience.technical_workshop_java.description'
+  },
+  {
+    title: 'experience.technical_workshop_react.title',
+    institution: 'experience.technical_workshop_react.institution',
+    date: 'experience.technical_workshop_react.date',
+    place: 'experience.technical_workshop_react.place',
+    description: 'experience.technical_workshop_react.description'
+  },
+  {
+    title: 'experience.full_stack_developer_solistica.title',
+    institution: 'experience.full_stack_developer_solistica.institution',
+    date: 'experience.full_stack_developer_solistica.date',
+    place: 'experience.full_stack_developer_solistica.place',
+    description: 'experience.full_stack_developer_solistica.description',
     technologies: [
-      "Java 11",
-      "AngularTS",
-      "SQL",
-      "Hibernate",
-      "API REST",
-      "Spring",
-      "Built on Spring Boot",
-      "Spring Security",
-      "JPA for data persistence",
-      "Log4J for logging",
-      "Lombok",
-      "myBatis",
-      "GitLab CI pipeline defined",
+      'experience.full_stack_developer_solistica.technologies.java',
+      'experience.full_stack_developer_solistica.technologies.kafka',
+      'experience.full_stack_developer_solistica.technologies.angular',
+      'experience.full_stack_developer_solistica.technologies.sql',
+      'experience.full_stack_developer_solistica.technologies.rest',
+      'experience.full_stack_developer_solistica.technologies.quarkus',
+      'experience.full_stack_developer_solistica.technologies.docker',
+      'experience.full_stack_developer_solistica.technologies.podman',
+      'experience.full_stack_developer_solistica.technologies.nextjs',
+      'experience.full_stack_developer_solistica.technologies.node'
     ]
   },
   {
-    title: "Dog Groomer - Specialized in Asian Fusion",
-    institution: "Laicka Estética Animal",
-    date: "Dec 2012 - Sep 2021",
-    place: "La Plata, Buenos Aires, Argentina",
-    description: "I learned how to interact with my clients (both dogs and humans), communicate my ideas to someone " +
-      "who doesn't know the technical language of the job, adapt my style to different people, " +
-      "use my skills in different ways and combine my knowledge in different areas to get the best results"
+    title: 'experience.full_stack_developer_fenix.title',
+    institution: 'experience.full_stack_developer_fenix.institution',
+    date: 'experience.full_stack_developer_fenix.date',
+    place: 'experience.full_stack_developer_fenix.place',
+    description: 'experience.full_stack_developer_fenix.description',
+    technologies: [
+      'experience.full_stack_developer_fenix.technologies.java',
+      'experience.full_stack_developer_fenix.technologies.angular',
+      'experience.full_stack_developer_fenix.technologies.sql',
+      'experience.full_stack_developer_fenix.technologies.hibernate',
+      'experience.full_stack_developer_fenix.technologies.rest',
+      'experience.full_stack_developer_fenix.technologies.spring',
+      'experience.full_stack_developer_fenix.technologies.spring_boot',
+      'experience.full_stack_developer_fenix.technologies.spring_security',
+      'experience.full_stack_developer_fenix.technologies.jpa',
+      'experience.full_stack_developer_fenix.technologies.log4j',
+      'experience.full_stack_developer_fenix.technologies.lombok',
+      'experience.full_stack_developer_fenix.technologies.mybatis',
+      'experience.full_stack_developer_fenix.technologies.gitlab_ci'
+    ]
+  },
+  {
+    title: 'experience.dog_groomer.title',
+    institution: 'experience.dog_groomer.institution',
+    date: 'experience.dog_groomer.date',
+    place: 'experience.dog_groomer.place',
+    description: 'experience.dog_groomer.description'
   }
-]
+];

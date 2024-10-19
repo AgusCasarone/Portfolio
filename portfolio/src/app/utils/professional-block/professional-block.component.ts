@@ -1,10 +1,11 @@
 import { Component, Input } from '@angular/core';
 import { LinkButtonComponent } from "../link-button/link-button.component";
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'professional-block',
   standalone: true,
-  imports: [LinkButtonComponent],
+  imports: [LinkButtonComponent, TranslateModule],
   templateUrl: './professional-block.component.html',
   styleUrl: './professional-block.component.scss'
 })

@@ -14,12 +14,12 @@ export class LanguageComponent {
 
   isTranslating: boolean = false;
 
-
   translate: TranslateService = inject(TranslateService);
 
   title = 'portfolio';
 
   changeLanguage(lang: string) {
+    this.isTranslating = false;
     this.translate.use(lang);
   }
 

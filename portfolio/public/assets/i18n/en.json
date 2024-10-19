@@ -1,3 +1,90 @@
 {
-  "texto": "text in english"
-}
+  "texto": "text in english",
+    "experience": {
+      "full_stack_developer_radar": {
+        "title": "Full Stack Developer - AngularTS, Java, SQL",
+        "institution": "ITR | Project Radar",
+        "date": "Apr 2024 - Jul 2024",
+        "place": "Remote - Argentina",
+        "description": "Design, development and construction of a task organization and project categorization system.",
+        "technologies": {
+          "java": "Java 11",
+          "angular": "AngularTS 17",
+          "api_rest": "API REST",
+          "spring_boot": "Spring Boot",
+          "spring_security": "Spring Security",
+          "jpa": "JPA for data persistence",
+          "log4j": "Log4J for logging",
+          "lombok": "Lombok",
+          "spring_actuator": "Spring Actuator for service health checking",
+          "retrofit": "Retrofit for configuring connections to external REST services",
+          "mapstruct": "MapStruct for entity to DTO mapping",
+          "openapi": "OpenAPI for generating online documentation of REST endpoints",
+          "gitlab_ci": "GitLab CI pipeline defined",
+          "tailwind": "Tailwind"
+        }
+      },
+      "technical_workshop_java": {
+        "title": "Technical Workshops - Virtual Threads vs Platform Threads in Java 17",
+        "institution": "ITR",
+        "date": "Jun 2024",
+        "place": "Remote - Argentina",
+        "description": "Researched, prepared the curriculum, and delivered a workshop for ITR, comparing the qualities and uses of virtual threads and platform threads in Java."
+      },
+      "technical_workshop_react": {
+        "title": "Technical Workshops - React 18 Workshop",
+        "institution": "ITR",
+        "date": "Jul 2024",
+        "place": "Remote - Argentina",
+        "description": "Conducted a workshop comparing React 18 with Angular 17, discussing the differences between vanilla React and React with Next.js, the new features of version 18, and the requirements for updating a project from an earlier version of React."
+      },
+      "full_stack_developer_solistica": {
+        "title": "Full Stack Developer - AngularTS, Java, SQL",
+        "institution": "ITR - GTIM | Project SolisticaONE",
+        "date": "Dec 2023 - Mar 2024",
+        "place": "Remote - Argentina, Mexico",
+        "description": "Development of a business management system covering Service Delivery, Client Management, Product Shipments, and Goods Travel Management.",
+        "technologies": {
+          "java": "Java 17",
+          "kafka": "Apache Kafka",
+          "angular": "AngularTS 15",
+          "sql": "SQL",
+          "rest": "API REST",
+          "quarkus": "Quarkus",
+          "docker": "Docker",
+          "podman": "Podman",
+          "nextjs": "NextJS",
+          "node": "Node.js"
+        }
+      },
+      "full_stack_developer_fenix": {
+        "title": "Full Stack Developer - AngularTS, Java, SQL",
+        "institution": "ITR | Project Fénix",
+        "date": "Jan 2023 - Dec 2023",
+        "place": "Remote - Argentina",
+        "description": "An in-company Enterprise Management Software. We have daily meetings and use agile methodologies to ensure the best experience to our users.",
+        "technologies": {
+          "java": "Java 11",
+          "angular": "AngularTS",
+          "sql": "SQL",
+          "hibernate": "Hibernate",
+          "rest": "API REST",
+          "spring": "Spring",
+          "spring_boot": "Spring Boot",
+          "spring_security": "Spring Security",
+          "jpa": "JPA for data persistence",
+          "log4j": "Log4J for logging",
+          "lombok": "Lombok",
+          "mybatis": "myBatis",
+          "gitlab_ci": "GitLab CI pipeline defined"
+        }
+      },
+      "dog_groomer": {
+        "title": "Dog Groomer - Specialized in Asian Fusion",
+        "institution": "Laicka Estética Animal",
+        "date": "Dec 2012 - Sep 2021",
+        "place": "La Plata, Buenos Aires, Argentina",
+        "description": "I learned how to interact with my clients (both dogs and humans), communicate my ideas to someone who doesn't know the technical language of the job, adapt my style to different people, use my skills in different ways and combine my knowledge in different areas to get the best results."
+      }
+    }
+  }

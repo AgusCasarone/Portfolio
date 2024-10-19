@@ -14,19 +14,16 @@
 </button>
 
 @if (isTranslating) {
-  <ul>
+  <ul class="language-toggle-list">
     <li>
       <button
       (click)="changeLanguage('es')"
-      style="width: 5rem;">Español</button>
+      style="width: 3rem;">Español</button>
     </li>
     <li>
       <button
       (click)="changeLanguage('en')"
-      style="width: 5rem;">Inglés</button>
-    </li>
-    <li>
-      {{ 'texto' | translate }}
+      style="width: 3rem;">English</button>
     </li>
   </ul>
 }

@@ -6,11 +6,11 @@
 @if(!isToggled){
   @for (experienceItem of experienceList; track $index) {
     <professional-block
-      [name]="experienceItem.title"
-      [institution]="experienceItem.institution"
-      [date]="experienceItem.date"
-      [place]="experienceItem.place"
-      [description]="experienceItem.description"
+      [name]="experienceItem.title | translate"
+      [institution]="experienceItem.institution | translate"
+      [date]="experienceItem.date | translate"
+      [place]="experienceItem.place | translate"
+      [description]="experienceItem.description | translate"
       [technologies]="experienceItem.technologies"
     />
   }
