@@ -2,85 +2,75 @@ import { Education } from "../../../src/interfaces/education";
 
 export const educationList: Education[] = [
   {
-    title: "Licenciatura en Informática",
-    institution: "UNLP",
-    date: "2021 - current",
-    place: "La Plata, Buenos Aires, Argentina",
-    description: "The profile of a graduate with a Bachelor's degree in Informatics is that of a professional " +
-      "with a strong theoretical foundation in Computer Science and a focus on the application of information technology " +
-      "in areas such as: networks, distributed systems, processor architecture, and operating systems, as well as advanced " +
-      "studies in algorithms and their applications. This education also enables participation in Research, Development, " +
-      "and Innovation activities within the discipline.",
+    title: 'education_list.digital_house.certified_tech_developer.title',
+    link: '',
+    institution: 'education_list.digital_house.certified_tech_developer.institution',
+    date: 'education_list.digital_house.certified_tech_developer.date',
+    place: 'education_list.digital_house.certified_tech_developer.place',
+    description: 'education_list.digital_house.certified_tech_developer.description'
   },
   {
-    title: "ITR - Angular Avanzado",
-    institution: "Mind Hub",
-    date: "2024",
-    description: "In-company course focused on the updates of Angular v17 with the use of Tailwind. " +
-      "Additionally, the creation of a NodeJS backend and a Mongo data base.",
-    place: "Online - Argentina"
+    title: 'education_list.free_code_camp.responsive_web_design_certification.title',
+    link: 'education_list.free_code_camp.responsive_web_design_certification.link',
+    institution: 'education_list.free_code_camp.responsive_web_design_certification.institution',
+    date: 'education_list.free_code_camp.responsive_web_design_certification.date',
+    place: 'education_list.free_code_camp.responsive_web_design_certification.place',
+    description: 'education_list.free_code_camp.responsive_web_design_certification.description'
   },
   {
-    title: "DAEVA - SQL INTERMEDIO UTN",
-    institution: "UTN",
-    date: "2023",
-    description: "This course corresponds to an Intermediate Level of Managing Information Persistence through SQL SERVER. " +
-      "Topics covered include complex SQL queries, data structures, triggers, TSQL syntax, and scripts",
-    place: "Online - Argentina"
+    title: 'education_list.harvard_university.cs50_c.title',
+    link: '',
+    institution: 'education_list.harvard_university.cs50_c.institution',
+    date: 'education_list.harvard_university.cs50_c.date',
+    place: 'education_list.harvard_university.cs50_c.place',
+    description: 'education_list.harvard_university.cs50_c.description'
   },
   {
-    title: "Certified Tech Developer",
-    link: "",
-    institution: "Digital House",
-    date: "2021 - 2023",
-    place: "Online - Argentina",
-    description: "Completed a comprehensive 2-year degree covering Web Design, Learning Agility, Agile Methodologies & Scrum, " +
-      "JavaScript programming, UX/UI Design, and Software Quality Testing. Developed skills in MySQL databases, React.js, " +
-      "Java OOP and Spring Boot, AWS infrastructure, Cloud Computing, and effective communication and collaboration within work teams. " +
-      "Successfully managed professional challenges demonstrating the practical application of acquired knowledge."
+    title: 'education_list.mind_hub.itr_angular_avanzado.title',
+    link: '',
+    institution: 'education_list.mind_hub.itr_angular_avanzado.institution',
+    date: 'education_list.mind_hub.itr_angular_avanzado.date',
+    place: 'education_list.mind_hub.itr_angular_avanzado.place',
+    description: 'education_list.mind_hub.itr_angular_avanzado.description'
   },
   {
-    title: "CS50 - C",
-    institution: "Harvard University",
-    date: "2021",
-    place: "Online",
-    description: "Harvard University's introductory course in computer science and programming. " +
-      "Gained a robust understanding of computer science concepts such as abstraction, algorithms, data structures, encapsulation, " +
-      "resource management, security, software engineering, and web development. Strong knowledge in languages including C, Python, " +
-      "SQL and JavaScript, with practical experience in real-world inspired problem sets and a final programming project.",
+    title: 'education_list.utn.daeava_sql_intermedio.title',
+    link: '',
+    institution: 'education_list.utn.daeava_sql_intermedio.institution',
+    date: 'education_list.utn.daeava_sql_intermedio.date',
+    place: 'education_list.utn.daeava_sql_intermedio.place',
+    description: 'education_list.utn.daeava_sql_intermedio.description'
   },
   {
-    title: "100 Days of Code: The Complete Python Pro Bootcamp ",
-    institution: "Udemy",
-    date: "2023",
-    place: "Online",
-    description: "A comprehensive 60+ hour course covering Python 3, web development, data science, automation, and real-world projects." +
-      "Gained expertise in tools like PyCharm, Jupyter Notebook, and Flask, and built practical applications such as web scrapers and desktop GUIs."
+    title: 'education_list.cambridge_university.first_certificate.title',
+    link: '',
+    institution: 'education_list.cambridge_university.first_certificate.institution',
+    date: 'education_list.cambridge_university.first_certificate.date',
+    place: 'education_list.cambridge_university.first_certificate.place',
+    description: 'education_list.cambridge_university.first_certificate.description'
   },
   {
-    title: "Responsive Web Design Certification",
-    link: "https://www.freecodecamp.org/certification/agustina-casarone/responsive-web-design",
-    institution: "Free Code Camp",
-    date: "2021",
-    place: "Online",
-    description: "Completed a Responsive Web Design Certification focusing on HTML for content and CSS for design. " +
-      "Developed skills in building basic web applications like a cat photo app, advanced techniques such as CSS variables for dynamic styling, " +
-      "and implementing best practices for accessibility through projects like a quiz site. " +
-      "Proficient in creating responsive webpages using Flexbox for photo galleries and CSS Grid for " +
-      "magazine article layouts."
+    title: 'education_list.normal_1_mary_o_graham.high_school_of_natural_sciences.title',
+    link: '',
+    institution: 'education_list.normal_1_mary_o_graham.high_school_of_natural_sciences.institution',
+    date: 'education_list.normal_1_mary_o_graham.high_school_of_natural_sciences.date',
+    place: 'education_list.normal_1_mary_o_graham.high_school_of_natural_sciences.place',
+    description: 'education_list.normal_1_mary_o_graham.high_school_of_natural_sciences.description'
   },
   {
-    title: "First Certificate in English",
-    link: "",
-    institution: "Cambridge University",
-    date: "2013",
-    place: "La Plata, Buenos Aires, Argentina"
+    title: 'education_list.unlp.licenciatura_en_informatica.title',
+    link: '',
+    institution: 'education_list.unlp.licenciatura_en_informatica.institution',
+    date: 'education_list.unlp.licenciatura_en_informatica.date',
+    place: 'education_list.unlp.licenciatura_en_informatica.place',
+    description: 'education_list.unlp.licenciatura_en_informatica.description'
   },
   {
-    title: "High School of Natural Sciences",
-    link: "",
-    institution: "Normal 1, Mary O. Graham",
-    date: "2007 - 2013",
-    place: "La Plata, Buenos Aires, Argentina"
+    title: 'education_list.udemy.100_days_of_code.title',
+    link: '',
+    institution: 'education_list.udemy.100_days_of_code.institution',
+    date: 'education_list.udemy.100_days_of_code.date',
+    place: 'education_list.udemy.100_days_of_code.place',
+    description: 'education_list.udemy.100_days_of_code.description'
   }
-]
+];

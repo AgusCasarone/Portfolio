@@ -1,90 +1,175 @@
 {
   "texto": "text in english",
-    "experience": {
-      "full_stack_developer_radar": {
-        "title": "Full Stack Developer - AngularTS, Java, SQL",
-        "institution": "ITR | Project Radar",
-        "date": "Apr 2024 - Jul 2024",
-        "place": "Remote - Argentina",
-        "description": "Design, development and construction of a task organization and project categorization system.",
-        "technologies": {
-          "java": "Java 11",
-          "angular": "AngularTS 17",
-          "api_rest": "API REST",
-          "spring_boot": "Spring Boot",
-          "spring_security": "Spring Security",
-          "jpa": "JPA for data persistence",
-          "log4j": "Log4J for logging",
-          "lombok": "Lombok",
-          "spring_actuator": "Spring Actuator for service health checking",
-          "retrofit": "Retrofit for configuring connections to external REST services",
-          "mapstruct": "MapStruct for entity to DTO mapping",
-          "openapi": "OpenAPI for generating online documentation of REST endpoints",
-          "gitlab_ci": "GitLab CI pipeline defined",
-          "tailwind": "Tailwind"
-        }
-      },
-      "technical_workshop_java": {
-        "title": "Technical Workshops - Virtual Threads vs Platform Threads in Java 17",
-        "institution": "ITR",
-        "date": "Jun 2024",
-        "place": "Remote - Argentina",
-        "description": "Researched, prepared the curriculum, and delivered a workshop for ITR, comparing the qualities and uses of virtual threads and platform threads in Java."
-      },
-      "technical_workshop_react": {
-        "title": "Technical Workshops - React 18 Workshop",
-        "institution": "ITR",
-        "date": "Jul 2024",
-        "place": "Remote - Argentina",
-        "description": "Conducted a workshop comparing React 18 with Angular 17, discussing the differences between vanilla React and React with Next.js, the new features of version 18, and the requirements for updating a project from an earlier version of React."
-      },
-      "full_stack_developer_solistica": {
-        "title": "Full Stack Developer - AngularTS, Java, SQL",
-        "institution": "ITR - GTIM | Project SolisticaONE",
-        "date": "Dec 2023 - Mar 2024",
-        "place": "Remote - Argentina, Mexico",
-        "description": "Development of a business management system covering Service Delivery, Client Management, Product Shipments, and Goods Travel Management.",
-        "technologies": {
-          "java": "Java 17",
-          "kafka": "Apache Kafka",
-          "angular": "AngularTS 15",
-          "sql": "SQL",
-          "rest": "API REST",
-          "quarkus": "Quarkus",
-          "docker": "Docker",
-          "podman": "Podman",
-          "nextjs": "NextJS",
-          "node": "Node.js"
-        }
-      },
-      "full_stack_developer_fenix": {
-        "title": "Full Stack Developer - AngularTS, Java, SQL",
-        "institution": "ITR | Project Fénix",
-        "date": "Jan 2023 - Dec 2023",
-        "place": "Remote - Argentina",
-        "description": "An in-company Enterprise Management Software. We have daily meetings and use agile methodologies to ensure the best experience to our users.",
-        "technologies": {
-          "java": "Java 11",
-          "angular": "AngularTS",
-          "sql": "SQL",
-          "hibernate": "Hibernate",
-          "rest": "API REST",
-          "spring": "Spring",
-          "spring_boot": "Spring Boot",
-          "spring_security": "Spring Security",
-          "jpa": "JPA for data persistence",
-          "log4j": "Log4J for logging",
-          "lombok": "Lombok",
-          "mybatis": "myBatis",
-          "gitlab_ci": "GitLab CI pipeline defined"
-        }
-      },
-      "dog_groomer": {
-        "title": "Dog Groomer - Specialized in Asian Fusion",
-        "institution": "Laicka Estética Animal",
-        "date": "Dec 2012 - Sep 2021",
+  "experience": {
+    "full_stack_developer_radar": {
+      "title": "Full Stack Developer - AngularTS, Java, SQL",
+      "institution": "ITR | Project Radar",
+      "date": "Apr 2024 - Jul 2024",
+      "place": "Remote - Argentina",
+      "description": "Design, development and construction of a task organization and project categorization system.",
+      "technologies": {
+        "java": "Java 11",
+        "angular": "AngularTS 17",
+        "api_rest": "API REST",
+        "spring_boot": "Spring Boot",
+        "spring_security": "Spring Security",
+        "jpa": "JPA for data persistence",
+        "log4j": "Log4J for logging",
+        "lombok": "Lombok",
+        "spring_actuator": "Spring Actuator for service health checking",
+        "retrofit": "Retrofit for configuring connections to external REST services",
+        "mapstruct": "MapStruct for entity to DTO mapping",
+        "openapi": "OpenAPI for generating online documentation of REST endpoints",
+        "gitlab_ci": "GitLab CI pipeline defined",
+        "tailwind": "Tailwind"
+      }
+    },
+    "technical_workshop_java": {
+      "title": "Technical Workshops - Virtual Threads vs Platform Threads in Java 17",
+      "institution": "ITR",
+      "date": "Jun 2024",
+      "place": "Remote - Argentina",
+      "description": "Researched, prepared the curriculum, and delivered a workshop for ITR, comparing the qualities and uses of virtual threads and platform threads in Java."
+    },
+    "technical_workshop_react": {
+      "title": "Technical Workshops - React 18 Workshop",
+      "institution": "ITR",
+      "date": "Jul 2024",
+      "place": "Remote - Argentina",
+      "description": "Conducted a workshop comparing React 18 with Angular 17, discussing the differences between vanilla React and React with Next.js, the new features of version 18, and the requirements for updating a project from an earlier version of React."
+    },
+    "full_stack_developer_solistica": {
+      "title": "Full Stack Developer - AngularTS, Java, SQL",
+      "institution": "ITR - GTIM | Project SolisticaONE",
+      "date": "Dec 2023 - Mar 2024",
+      "place": "Remote - Argentina, Mexico",
+      "description": "Development of a business management system covering Service Delivery, Client Management, Product Shipments, and Goods Travel Management.",
+      "technologies": {
+        "java": "Java 17",
+        "kafka": "Apache Kafka",
+        "angular": "AngularTS 15",
+        "sql": "SQL",
+        "rest": "API REST",
+        "quarkus": "Quarkus",
+        "docker": "Docker",
+        "podman": "Podman",
+        "nextjs": "NextJS",
+        "node": "Node.js"
+      }
+    },
+    "full_stack_developer_fenix": {
+      "title": "Full Stack Developer - AngularTS, Java, SQL",
+      "institution": "ITR | Project Fénix",
+      "date": "Jan 2023 - Dec 2023",
+      "place": "Remote - Argentina",
+      "description": "An in-company Enterprise Management Software. We have daily meetings and use agile methodologies to ensure the best experience to our users.",
+      "technologies": {
+        "java": "Java 11",
+        "angular": "AngularTS",
+        "sql": "SQL",
+        "hibernate": "Hibernate",
+        "rest": "API REST",
+        "spring": "Spring",
+        "spring_boot": "Spring Boot",
+        "spring_security": "Spring Security",
+        "jpa": "JPA for data persistence",
+        "log4j": "Log4J for logging",
+        "lombok": "Lombok",
+        "mybatis": "myBatis",
+        "gitlab_ci": "GitLab CI pipeline defined"
+      }
+    },
+    "dog_groomer": {
+      "title": "Dog Groomer - Specialized in Asian Fusion",
+      "institution": "Laicka Estética Animal",
+      "date": "Dec 2012 - Sep 2021",
+      "place": "La Plata, Buenos Aires, Argentina",
+      "description": "I learned how to interact with my clients (both dogs and humans), communicate my ideas to someone who doesn't know the technical language of the job, adapt my style to different people, use my skills in different ways and combine my knowledge in different areas to get the best results."
+    }
+  },
+  "education_list": {
+    "digital_house": {
+      "certified_tech_developer": {
+        "title": "Certified Tech Developer",
+        "link": "",
+        "date": "2021 - 2023",
+        "place": "Online - Argentina",
+        "description": "Completed a comprehensive 2-year degree covering Web Design, Learning Agility, Agile Methodologies & Scrum, JavaScript programming, UX/UI Design, and Software Quality Testing. Developed skills in MySQL databases, React.js, Java OOP and Spring Boot, AWS infrastructure, Cloud Computing, and effective communication and collaboration within work teams. Successfully managed professional challenges demonstrating the practical application of acquired knowledge."
+      }
+    },
+    "free_code_camp": {
+      "responsive_web_design_certification": {
+        "title": "Responsive Web Design Certification",
+        "link": "https://www.freecodecamp.org/certification/agustina-casarone/responsive-web-design",
+        "date": "2021",
+        "place": "Online",
+        "description": "Completed a Responsive Web Design Certification focusing on HTML for content and CSS for design. Developed skills in building basic web applications like a cat photo app, advanced techniques such as CSS variables for dynamic styling, and implementing best practices for accessibility through projects like a quiz site. Proficient in creating responsive webpages using Flexbox for photo galleries and CSS Grid for magazine article layouts."
+      }
+    },
+    "harvard_university": {
+      "cs50_c": {
+        "title": "CS50 - C",
+        "link": "",
+        "date": "2021",
+        "place": "Online",
+        "description": "Harvard University's introductory course in computer science and programming. Gained a robust understanding of computer science concepts such as abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Strong knowledge in languages including C, Python, SQL and JavaScript, with practical experience in real-world inspired problem sets and a final programming project."
+      }
+    },
+    "mind_hub": {
+      "itr_angular_avanzado": {
+        "title": "ITR - Angular Avanzado",
+        "link": "",
+        "date": "2024",
+        "place": "Online - Argentina",
+        "description": "In-company course focused on the updates of Angular v17 with the use of Tailwind. Additionally, the creation of a NodeJS backend and a Mongo database."
+      }
+    },
+    "utn": {
+      "daeava_sql_intermedio": {
+        "title": "DAEVA - SQL INTERMEDIO UTN",
+        "link": "",
+        "date": "2023",
+        "place": "Online - Argentina",
+        "description": "This course corresponds to an Intermediate Level of Managing Information Persistence through SQL SERVER. Topics covered include complex SQL queries, data structures, triggers, TSQL syntax, and scripts."
+      }
+    },
+    "cambridge_university": {
+      "first_certificate": {
+        "title": "First Certificate in English",
+        "link": "",
+        "date": "2013",
         "place": "La Plata, Buenos Aires, Argentina",
-        "description": "I learned how to interact with my clients (both dogs and humans), communicate my ideas to someone who doesn't know the technical language of the job, adapt my style to different people, use my skills in different ways and combine my knowledge in different areas to get the best results."
+        "description": ""
+      }
+    },
+    "normal_1_mary_o_graham": {
+      "high_school_of_natural_sciences": {
+        "title": "High School of Natural Sciences",
+        "link": "",
+        "date": "2007 - 2013",
+        "place": "La Plata, Buenos Aires, Argentina",
+        "description": ""
+      }
+    },
+    "unlp": {
+      "licenciatura_en_informatica": {
+        "title": "Licenciatura en Informática",
+        "link": "",
+        "date": "2021 - current",
+        "place": "La Plata, Buenos Aires, Argentina",
+        "description": "The profile of a graduate with a Bachelor's degree in Informatics is that of a professional with a strong theoretical foundation in Computer Science and a focus on the application of information technology in areas such as: networks, distributed systems, processor architecture, and operating systems, as well as advanced studies in algorithms and their applications. This education also enables participation in Research, Development, and Innovation activities within the discipline."
+      }
+    },
+    "udemy": {
+      "100_days_of_code": {
+        "title": "100 Days of Code: The Complete Python Pro Bootcamp",
+        "link": "",
+        "date": "2023",
+        "place": "Online",
+        "description": "A comprehensive 60+ hour course covering Python 3, web development, data science, automation, and real-world projects. Gained expertise in tools like PyCharm, Jupyter Notebook, and Flask, and built practical applications such as web scrapers and desktop GUIs."
       }
     }
   }
+}
+
+

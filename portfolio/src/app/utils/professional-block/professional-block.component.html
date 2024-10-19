@@ -1,22 +1,24 @@
 <div class="professional-block">
   <h3 class="professional-name">
-      {{ name }}
+      {{ name | translate }}
   </h3>
 
   <h4 class="professional-institution">
-    {{ institution }}
+    {{ institution | translate }}
   </h4>
 
   <div class="professional-date">
     <div class="professional-date-items">
-      {{ date }}
+      {{ date | translate }}
     </div>
     @if (date && place) {
       <p class="px-[0.5rem]"> | </p>
     }
-    <div class="professional-date-items">
-      {{ place }}
-    </div>
+    @if (place) {
+      <div class="professional-date-items">
+        {{ place | translate }}
+      </div>
+    }
   </div>
 
   <div class="lg:flex lg:row lg:justify-between ">
@@ -42,9 +44,11 @@
   </div>
 
 
-  <div class="professional-description">
-    {{ description }}
-  </div>
+  @if (description) {
+    <div class="professional-description">
+      {{ description | translate }}
+    </div>
+  }
 
   @if (technologies && technologies.length > 0) {
     <h5 class="mt-[1rem] text-main-title-color">Technologies</h5>

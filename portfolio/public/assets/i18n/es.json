@@ -86,6 +86,89 @@
       "place": "La Plata, Buenos Aires, Argentina",
       "description": "Aprendí a interactuar con mis clientes (tanto perros como humanos), comunicar mis ideas a alguien que no conoce el lenguaje técnico del trabajo, adaptar mi estilo a diferentes personas, utilizar mis habilidades de diversas maneras y combinar mis conocimientos en diferentes áreas para obtener los mejores resultados."
     }
+  },
+  "education_list": {
+    "digital_house": {
+      "certified_tech_developer": {
+        "title": "Certified Tech Developer",
+        "link": "",
+        "date": "2021 - 2023",
+        "place": "Online - Argentina",
+        "description": "Completé un programa integral de 2 años que abarca Diseño Web, Agilidad de Aprendizaje, Metodologías Ágiles y Scrum, programación en JavaScript, diseño UX/UI y pruebas de calidad de software. Desarrollé habilidades en bases de datos MySQL, React.js, programación orientada a objetos en Java y Spring Boot, infraestructura en AWS, computación en la nube y comunicación efectiva y colaboración dentro de equipos de trabajo. Maneje con éxito desafíos profesionales demostrando la aplicación práctica del conocimiento adquirido."
+      }
+    },
+    "free_code_camp": {
+      "responsive_web_design_certification": {
+        "title": "Responsive Web Design Certification",
+        "link": "https://www.freecodecamp.org/certification/agustina-casarone/responsive-web-design",
+        "date": "2021",
+        "place": "Online",
+        "description": "Completé una certificación en Diseño Web Responsivo centrada en HTML para contenido y CSS para diseño. Desarrollé habilidades en la construcción de aplicaciones web básicas como una aplicación de fotos de gatos, técnicas avanzadas como variables CSS para estilos dinámicos, y la implementación de mejores prácticas para la accesibilidad a través de proyectos como un sitio de cuestionarios. Soy competente en la creación de páginas web responsivas utilizando Flexbox para galerías de fotos y CSS Grid para diseños de artículos de revistas."
+      }
+    },
+    "harvard_university": {
+      "cs50_c": {
+        "title": "CS50 - C",
+        "link": "",
+        "date": "2021",
+        "place": "Online",
+        "description": "El curso introductorio de la Universidad de Harvard en ciencias de la computación y programación. Adquirí una comprensión sólida de conceptos de ciencias de la computación como abstracción, algoritmos, estructuras de datos, encapsulamiento, gestión de recursos, seguridad, ingeniería de software y desarrollo web. Poseo un sólido conocimiento en lenguajes como C, Python, SQL y JavaScript, con experiencia práctica en problemas inspirados en situaciones del mundo real y un proyecto final de programación."
+      }
+    },
+    "mind_hub": {
+      "itr_angular_avanzado": {
+        "title": "ITR - Angular Avanzado",
+        "link": "",
+        "date": "2024",
+        "place": "Online - Argentina",
+        "description": "Curso en empresa centrado en las actualizaciones de Angular v17 con el uso de Tailwind. Además, la creación de un backend en NodeJS y una base de datos Mongo."
+      }
+    },
+    "utn": {
+      "daeava_sql_intermedio": {
+        "title": "DAEVA - SQL INTERMEDIO UTN",
+        "link": "",
+        "date": "2023",
+        "place": "Online - Argentina",
+        "description": "Este curso corresponde a un nivel intermedio de gestión de la persistencia de información a través de SQL SERVER. Los temas cubiertos incluyen consultas SQL complejas, estructuras de datos, triggers, sintaxis de TSQL y scripts."
+      }
+    },
+    "cambridge_university": {
+      "first_certificate": {
+        "title": "First Certificate in English",
+        "link": "",
+        "date": "2013",
+        "place": "La Plata, Buenos Aires, Argentina",
+        "description": ""
+      }
+    },
+    "normal_1_mary_o_graham": {
+      "high_school_of_natural_sciences": {
+        "title": "High School of Natural Sciences",
+        "link": "",
+        "date": "2007 - 2013",
+        "place": "La Plata, Buenos Aires, Argentina",
+        "description": ""
+      }
+    },
+    "unlp": {
+      "licenciatura_en_informatica": {
+        "title": "Licenciatura en Informática",
+        "link": "",
+        "date": "2021 - actual",
+        "place": "La Plata, Buenos Aires, Argentina",
+        "description": "El perfil de un graduado con un título de Licenciatura en Informática es el de un profesional con una sólida formación teórica en Ciencias de la Computación y un enfoque en la aplicación de la tecnología de la información en áreas como: redes, sistemas distribuidos, arquitectura de procesadores y sistemas operativos, así como estudios avanzados en algoritmos y sus aplicaciones. Esta educación también permite la participación en actividades de Investigación, Desarrollo e Innovación dentro de la disciplina."
+      }
+    },
+    "udemy": {
+      "100_days_of_code": {
+        "title": "100 Days of Code: The Complete Python Pro Bootcamp",
+        "link": "",
+        "date": "2023",
+        "place": "Online",
+        "description": "Un curso completo de más de 60 horas que cubre Python 3, desarrollo web, ciencia de datos, automatización y proyectos del mundo real. Adquirí experiencia en herramientas como PyCharm, Jupyter Notebook y Flask, y construí aplicaciones prácticas como scrapers web y GUIs de escritorio."
+      }
+    }
   }
 }
 

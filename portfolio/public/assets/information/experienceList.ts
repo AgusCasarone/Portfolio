@@ -1,4 +1,5 @@
 import { Experience } from "../../../src/interfaces/experience";
+
 export const experienceList: Experience[] = [
   {
     title: 'experience.full_stack_developer_radar.title',
