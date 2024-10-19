@@ -1,5 +1,18 @@
 {
   "texto": "text in english",
+    "presentation": {
+    "title": "👋 Hi there! I'm Agustina Casarone",
+    "description": "I am a passionate Full Stack Developer from La Plata, Argentina, specialized in Java, SQL, and Angular. I thrive on crafting innovative and scalable software solutions that make a real impact.",
+    "professional_background": "With a solid foundation in backend technologies like Spring Boot, Quarkus, and Sonar, combined with a keen eye for frontend development using Angular and Bootstrap, I bring a comprehensive approach to software development. I excel in pixel-perfect development and beautiful UX/UI designs, ensuring high-quality and efficient results."
+  },
+  "contact": {
+    "last_name": "Casarone",
+    "first_name": "Agustina",
+    "role": "Back End - Full Stack Developer",
+    "email": "agus.casarone@gmail.com",
+    "phone": "+549 221 436 9046",
+    "location": "La Plata, Buenos Aires, Argentina"
+  },
   "experience": {
     "full_stack_developer_radar": {
       "title": "Full Stack Developer - AngularTS, Java, SQL",
@@ -90,6 +103,7 @@
   "education_list": {
     "digital_house": {
       "certified_tech_developer": {
+        "institution": "Digital House",
         "title": "Certified Tech Developer",
         "link": "",
         "date": "2021 - 2023",
@@ -99,6 +113,7 @@
     },
     "free_code_camp": {
       "responsive_web_design_certification": {
+        "institution": "Free Code Camp",
         "title": "Responsive Web Design Certification",
         "link": "https://www.freecodecamp.org/certification/agustina-casarone/responsive-web-design",
         "date": "2021",
@@ -108,6 +123,7 @@
     },
     "harvard_university": {
       "cs50_c": {
+        "institution": "Harvard University",
         "title": "CS50 - C",
         "link": "",
         "date": "2021",
@@ -117,6 +133,7 @@
     },
     "mind_hub": {
       "itr_angular_avanzado": {
+        "institution": "Mind Hub",
         "title": "ITR - Angular Avanzado",
         "link": "",
         "date": "2024",
@@ -126,6 +143,7 @@
     },
     "utn": {
       "daeava_sql_intermedio": {
+        "institution": "UTN",
         "title": "DAEVA - SQL INTERMEDIO UTN",
         "link": "",
         "date": "2023",
@@ -135,6 +153,7 @@
     },
     "cambridge_university": {
       "first_certificate": {
+        "institution": "Cambridge University",
         "title": "First Certificate in English",
         "link": "",
         "date": "2013",
@@ -144,6 +163,7 @@
     },
     "normal_1_mary_o_graham": {
       "high_school_of_natural_sciences": {
+        "institution": "Normal 1, Mary O. Graham",
         "title": "High School of Natural Sciences",
         "link": "",
         "date": "2007 - 2013",
@@ -153,6 +173,7 @@
     },
     "unlp": {
       "licenciatura_en_informatica": {
+        "institution": "Universidad Nacional de La Plata",
         "title": "Licenciatura en Informática",
         "link": "",
         "date": "2021 - current",
@@ -162,6 +183,7 @@
     },
     "udemy": {
       "100_days_of_code": {
+        "institution": "UDEMY",
         "title": "100 Days of Code: The Complete Python Pro Bootcamp",
         "link": "",
         "date": "2023",

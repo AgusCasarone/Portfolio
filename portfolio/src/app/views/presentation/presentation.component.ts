@@ -3,17 +3,18 @@ import { ProfessionalTitleComponent } from "../../utils/professional-title/profe
 import { personalInfoDetail } from '../../../../public/assets/information/personalInfoDetail';
 import { PersonalInfo } from '../../../interfaces/personal-info';
 import { Presentation } from '../../../interfaces/presentation';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'presentation',
   standalone: true,
-  imports: [ProfessionalTitleComponent],
+  imports: [ProfessionalTitleComponent, TranslateModule],
   templateUrl: './presentation.component.html',
   styleUrl: './presentation.component.scss'
 })
 export class PresentationComponent {
 
-  presentation: Presentation = personalInfoDetail.presentation;
+  presentation: PersonalInfo = personalInfoDetail;
   isToggled: boolean = false;
 
   onToggle(isToggled: boolean) {

@@ -1,23 +1,15 @@
 import { PersonalInfo } from "../../../src/interfaces/personal-info";
-
 export const personalInfoDetail: PersonalInfo = {
-  lastName: "Casarone",
-  firstName: "Agustina",
-  role: "Back End - Full Stack Developer",
-  email: "agus.casarone@gmail.com",
-  phone: "+549 221 436 9046",
+  lastName: "contact.last_name",  // Use translation key
+  firstName: "contact.first_name",  // Use translation key
+  role: "contact.role",  // Use translation key
+  email: "contact.email",  // Use translation key
+  phone: "contact.phone",  // Use translation key
   phoneLink: 542214369046,
-  location: "La Plata, Buenos Aires, Argentina",
+  location: "contact.location",  // Use translation key
   presentation: {
-    title: "👋 Hi there! I'm Agustina Casarone",
-    description: "I am a passionate Full Stack Developer from La Plata, Argentina, " +
-      "specialized in Java, SQL and Angular. " +
-      "I thrive on crafting innovative and scalable software solutions " +
-      "that make a real impact.",
-    proffesionalBackground: "With a solid foundation in backend technologies like Spring Boot, " +
-      "Quarkus and Sonar, combined with a keen eye for frontend development " +
-      "using Angular and Bootstrap, I bring a comprehensive approach " +
-      "to software development. I excel in pixel-perfect development " +
-      "and beautiful UX/UI designs, ensuring high-quality and efficient results."
+    title: "presentation.title",  // Use translation key
+    description: "presentation.description",  // Use translation key
+    professionalBackground: "presentation.professional_background"  // Use translation key
   }
-}
+};
