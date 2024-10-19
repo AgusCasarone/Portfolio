@@ -56,6 +56,9 @@ module.exports = {
           DEFAULT: 'rgba(112, 20, 103, 0.79)',
           dark: 'rgba(112, 20, 103, 0.79)'
         },
+
+        'detail': 'rgb(106, 89, 181)',
+        'detail-complementary': 'rgb(134, 181, 89)',
       }
     },
   },
