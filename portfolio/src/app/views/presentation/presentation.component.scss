@@ -37,24 +37,6 @@
   border-top-width: 0;
 }
 
-.presentation:active,
-.presentation:focus {
-  outline: none;
-}
-
-.presentation:active::before,
-.presentation:active::after {
-  right: 3px;
-  left: 3px;
-}
-
-.presentation:active::before {
-  top: 3px;
-}
-
-.presentation:active::after {
-  bottom: 3px;
-}
 
 .presentation_lg {
   position: relative;

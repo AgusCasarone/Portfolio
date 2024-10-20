@@ -22,12 +22,8 @@ export class LinkButtonComponent implements OnInit {
     this.design ? "assets/icons/figma.png" :
         "assets/icons/link.png";
 
-    this.sideFront= this.repository ? "View code" :
-            this.design ? "View design" :
-                    "Take me there";
-
-    this.sideTop= this.repository ? "Check it on GitHub" :
-            this.design ? "Check the design" :
-                    "Lets go!";
+    this.sideFront= this.repository ? "GitHub" :
+            this.design ? "Design" :
+                    "Visit";
   }
 }

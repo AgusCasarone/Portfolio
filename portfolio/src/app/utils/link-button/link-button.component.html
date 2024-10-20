@@ -1,15 +1,24 @@
-<div class="button-icon">
-  <div class="icon">
-    <img src="{{ image }}" alt="redirect logo" class="link-image">
-  </div>
-  <div class="cube">
-    <a class="side front"
-    href="{{ link }}" target="_blank" rel="noopener noreferrer">
+<a href="{{ link }}"
+target="_blank"
+rel="noopener noreferrer">
+  <button class="button-icon">
+    <p class="side front">
       {{ sideFront }}
-    </a>
-    <a class="side top"
-    href="{{ link }}" target="_blank" rel="noopener noreferrer">
-      {{ sideTop }}
-    </a>
-  </div>
-</div>
+    </p>
+    <div class="icon">
+      <img src="{{ image }}"
+      alt="redirect logo"
+      class="link-image bi bi-whatsapp"
+      width="16" height="16" fill="currentColor">
+    </div>
+    <p class="side front">
+      {{ sideFront }}
+    </p>
+    <div class="icon">
+      <img src="{{ image }}"
+      alt="redirect logo"
+      class="link-image bi bi-whatsapp"
+      width="16" height="16" fill="currentColor">
+    </div>
+  </button>
+</a>

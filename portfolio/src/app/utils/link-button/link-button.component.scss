@@ -1,58 +1,65 @@
-.button-icon {
-  display: flex;
-  border: 3px #fff solid;
-  width: fit-content;
-  height: fit-content;
-  cursor: pointer;
+/* From Uiverse.io by alshahwan */
+button {
+  background-color: #0f1923;
+  border: 1px solid rgba(245, 245, 245, 1);
+  padding: 5px;
+  position: relative;
+  width: 5.5rem;
+  height: 2em;
+  transition: 0.5s;
+  font-size: 17px;
+  border-radius: 0.4em;
+  margin: 0.5rem 0;
 }
 
-.icon {
-  background-color: #fff;
-  padding: 10px 10px 5px 10px;
-}
-
-.link-image {
-  width: 25px;
-  height: 25px;
-}
-
-.cube {
-  transition: all 0.4s;
-  transform-style: preserve-3d;
-  width: 7rem;
-  height: 1rem;
-}
-
-.button-icon:hover {
-  border-color: rgba(50, 25, 112, 0.7491);
-}
-
-.button-icon:hover .cube {
-  transform: rotateX(90deg);
-}
-
-.side {
+button p {
   position: absolute;
-  height: 40px;
-  width: 7rem;
-  display: flex;
-  font-size: 0.8em;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  font-weight: bold;
-  text-decoration: none;
+  top: 0.4em;
+  right: 1.15em;
+  margin: 0;
+  padding: 0;
+  transition: .5s;
+  font-weight: 600;
+  color: rgba(245, 245, 245, 1);
 }
 
-.top {
-  background: rgba(50, 25, 112, 0.7491);
-  color: #fff;
-  transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);
+button img {
+  position: absolute;
+  top: 0.45em;
+  left: 0.5em;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transition: 0.5s;
+  height: 1em;
+  fill: rgba(245, 245, 245, 1);
 }
 
-.front {
-  background: #222229;
-  color: #fff;
-  transform: translate3d(0, 0, 1em);
+button:hover p {
+  right: 0.5em;
+  color: rgba(245, 245, 245, 1);
+}
+
+button:hover img {
+  opacity: 1;
+}
+
+button:hover {
+  background-color: rgba(106, 89, 181, 0.701);
+}
+
+.button {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: -1px;
+  left: -8px;
+  width: 0;
+  background-color: rgba(106, 89, 181, 0.701);
+  transform: skew(-15deg);
+  transition: all .2s ease;
+}
+
+button:hover .button {
+  width: calc(100% + 15px);
 }
