@@ -1,3 +1,4 @@
+<div class="tooltip-container">
 <button (click)="isTranslating = !isTranslating">
   <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -14,16 +15,17 @@
 </button>
 
 @if (isTranslating) {
-  <ul class="language-toggle-list">
-    <li>
+  <ul class="language-toggle-list tooltip">
+    <li class="language-button">
       <button
       (click)="changeLanguage('es')"
       style="width: 3rem;">Español</button>
     </li>
-    <li>
+    <li class="language-button">
       <button
       (click)="changeLanguage('en')"
       style="width: 3rem;">English</button>
     </li>
   </ul>
 }
+</div>

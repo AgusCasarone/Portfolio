@@ -5,7 +5,7 @@
   appearance: none;
   border: none;
   background: none;
-  color: #0f1923;
+  color: rgba(2, 12, 44, 0.316);
   cursor: pointer;
   position: relative;
   padding: 8px;
@@ -43,7 +43,7 @@
   display: block;
   padding: 10px 20px;
   color: #fff;
-  background-color: #0f1923;
+  background-color: rgba(2, 12, 44, 0.316);
   overflow: hidden;
   box-shadow: inset 0px 0px 0px 1px transparent;
 }
@@ -56,7 +56,7 @@
   left: 0;
   width: 2px;
   height: 2px;
-  background-color: #0f1923;
+  background-color: rgba(2, 12, 44, 0.316);
 }
 
 .presentation_lg::after {
@@ -67,7 +67,7 @@
   bottom: 0;
   width: 4px;
   height: 4px;
-  background-color: #0f1923;
+  background-color: rgba(2, 12, 44, 0.316);
   transition: all .2s ease;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .presentation:hover {
-  color: #0f1923;
+  color: #192939;
 }
 
 .presentation:hover .presentation_sl {

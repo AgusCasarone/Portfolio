@@ -57,8 +57,9 @@ module.exports = {
           dark: 'rgba(112, 20, 103, 0.79)'
         },
 
-        'detail': 'rgb(106, 89, 181)',
-        'detail-complementary': 'rgb(134, 181, 89)',
+        'detail': 'rgba(245, 245, 245, 1)',
+        'detail-complementary': 'rgba(2, 12, 44, 0.316)',
+        'detail-third': 'rgba(106, 89, 181, 0.701)',
       }
     },
   },
