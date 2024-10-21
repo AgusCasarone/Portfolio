@@ -1,0 +1,32 @@
+.tooltip {
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  padding: 10px;
+  border-radius: 4px;
+  transition: opacity 0.3s, visibility 0.3s, top 0.3s, background 0.3s;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tooltip::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent rgba(2, 12, 44, 0.316) transparent;
+  transform: translateX(-50%);
+}
+
+.tooltip-container:hover .tooltip {
+  top: 60%;
+  opacity: 1;
+  visibility: visible;
+  background: rgba(2, 12, 44,75%);
+  transform: translate(-50%, -5px);
+}
