@@ -185,4 +185,7 @@
   .hobby-image-container { @apply h-[2rem] justify-items-start self-center text-pretty }
   .hobby-image { @apply h-[2rem] my-auto text-misc-primary-color }
 
+  .portfolio-footer { @apply flex place-content-center bg-page-backgound-bottom-gradient h-[2rem] }
+  portfolio-footer p { @apply place-content-center bg-main-background-color/75 w-full h-full text-center }
+
 }
