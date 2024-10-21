@@ -3,11 +3,12 @@ import { ProfessionalTitleComponent } from "../../utils/professional-title/profe
 import { projectList } from '../../../../public/assets/information/projectList';
 import { Project } from '../../../interfaces/project';
 import { ProfessionalBlockComponent } from "../../utils/professional-block/professional-block.component";
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'projects',
   standalone: true,
-  imports: [ProfessionalTitleComponent, ProfessionalBlockComponent],
+  imports: [ProfessionalTitleComponent, ProfessionalBlockComponent, TranslateModule],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'
 })

@@ -6,13 +6,13 @@
 @if(!isToggled){
   @for (project of projectList; track $index) {
     <professional-block
-      [name]="project.name"
-      [link]="project.link"
-      [description]="project.description"
-      [design]="project.design"
-      [repository]="project.repository"
-      [date]="project.date"
-      [image]="project.image"
+      [name]="project.name | translate"
+      [link]="project.link! | translate"
+      [description]="project.description | translate"
+      [design]="project.design! | translate"
+      [repository]="project.repository! | translate"
+      [date]="project.date | translate"
+      [image]="project.image! | translate"
     />
   }
 }

@@ -13,7 +13,7 @@ import { ProfessionalBlockComponent } from "../../utils/professional-block/profe
 })
 export class EducationComponent {
 
-  educationList: Education[] = this.sortEducationList(educationList);;
+  educationList: Education[] = this.sortEducationList(educationList);
 
   isToggled: boolean = false;
 

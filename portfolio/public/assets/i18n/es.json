@@ -191,6 +191,17 @@
         "description": "Un curso completo de más de 60 horas que cubre Python 3, desarrollo web, ciencia de datos, automatización y proyectos del mundo real. Adquirí experiencia en herramientas como PyCharm, Jupyter Notebook y Flask, y construí aplicaciones prácticas como scrapers web y GUIs de escritorio."
       }
     }
+  },
+  "projects": {
+    "ejam": {
+      "name": "eJam postulation project",
+      "link": "https://ejam-agustina-casarone.netlify.app/",
+      "description": "Este proyecto fue realizado en 24 horas para una posición de Desarrollador Full Stack en eJam. \n Es una página web completamente funcional y que sigue el diseño de manera pixel perfect basada en el diseño que me fue proporcionado. \n Utilicé Angular 18 con Tailwind para el desarrollo.",
+      "design": "https://www.figma.com/design/gHf56mhtFr0lXky0poofoQ/ejam---Clarifion-Upsell-%5B-Client-V-%5D-(Copy)?node-id=0-1&t=ErPOr9kcDMPXakqX-0",
+      "repository": "https://github.com/AgusCasarone/eJam-challenge",
+      "date": "Jun 2024",
+      "image": "assets/images/projects/ejam.png"
+    }
   }
 }
 
