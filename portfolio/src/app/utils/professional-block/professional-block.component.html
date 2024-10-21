@@ -51,7 +51,7 @@
   }
 
   @if (technologies && technologies.length > 0) {
-    <h5 class="mt-[1rem] text-main-title-color">Technologies</h5>
+    <h5 class="mt-[1rem] text-main-title-color">{{ 'UI.block_subtitles.technologies' | translate }}</h5>
     <div class="professional-technologies">
       @for (tech of technologies; track $index) {
         <p>{{ tech | translate}}</p>

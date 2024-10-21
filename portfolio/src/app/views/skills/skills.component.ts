@@ -3,11 +3,12 @@ import { ProfessionalTitleComponent } from "../../utils/professional-title/profe
 import { ProfessionalBlockComponent } from "../../utils/professional-block/professional-block.component";
 import { skillList } from '../../../../public/assets/information/skillList';
 import { Skill } from '../../../interfaces/skill';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'skills',
   standalone: true,
-  imports: [ProfessionalTitleComponent, ProfessionalBlockComponent],
+  imports: [ProfessionalTitleComponent, ProfessionalBlockComponent, TranslateModule],
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.scss'
 })

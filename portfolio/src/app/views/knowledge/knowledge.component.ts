@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { PersonalBlockComponent } from "../../utils/personal-block/personal-block.component";
 import { knowledgeList } from '../../../../public/assets/information/knowledgeList';
 import { Knowledge } from '../../../interfaces/knowledge';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'knowledge',
   standalone: true,
-  imports: [PersonalBlockComponent],
+  imports: [PersonalBlockComponent, TranslateModule],
   templateUrl: './knowledge.component.html',
   styleUrl: './knowledge.component.scss'
 })

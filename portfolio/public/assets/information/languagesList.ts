@@ -2,15 +2,15 @@ import { Language } from "../../../src/interfaces/language";
 
 export const languagesList: Language[] = [
   {
-    language: "Spanish",
-    proficiency: "Native"
+    language: 'languages_list.spanish.language',
+    proficiency: 'languages_list.spanish.level'
   },
   {
-    language: "English",
-    proficiency: "C2"
+    language: 'languages_list.english.language',
+    proficiency: 'languages_list.english.level'
   },
   {
-    language: "French",
-    proficiency: "A1"
+    language: 'languages_list.french.language',
+    proficiency: 'languages_list.french.level'
   }
 ]

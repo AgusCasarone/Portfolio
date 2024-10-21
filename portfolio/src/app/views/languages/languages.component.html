@@ -1,11 +1,11 @@
 <div class="personal-info-block">
-  <h3>Languages</h3>
+  <h3>{{ 'UI.misc_titles.languages' | translate }}</h3>
 
   <table class="language-table">
     @for (language of languagesList; track $index) {
       <tbody class="language-table-body">
-        <td class="language-table-item"> {{ language.language }} </td>
-        <td class="language-table-item"> {{ language.proficiency }} </td>
+        <td class="language-table-item"> {{ language.language | translate }} </td>
+        <td class="language-table-item"> {{ language.proficiency | translate }} </td>
       </tbody>
     }
   </table>

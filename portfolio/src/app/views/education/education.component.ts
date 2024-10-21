@@ -3,11 +3,12 @@ import { educationList } from '../../../../public/assets/information/educationLi
 import { Education } from '../../../interfaces/education';
 import { ProfessionalTitleComponent } from "../../utils/professional-title/professional-title.component";
 import { ProfessionalBlockComponent } from "../../utils/professional-block/professional-block.component";
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'education',
   standalone: true,
-  imports: [ProfessionalTitleComponent, ProfessionalBlockComponent],
+  imports: [ProfessionalTitleComponent, ProfessionalBlockComponent, TranslateModule],
   templateUrl: './education.component.html',
   styleUrl: './education.component.scss'
 })

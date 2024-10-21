@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { hobbyList } from '../../../../public/assets/information/hobbyList';
 import { Hobby } from '../../../interfaces/hobby';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'hobbies',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './hobbies.component.html',
   styleUrl: './hobbies.component.scss'
 })

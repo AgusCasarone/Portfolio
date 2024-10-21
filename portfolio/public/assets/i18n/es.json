@@ -193,13 +193,26 @@
   },
   "projects": {
     "ejam": {
-      "name": "eJam postulation project",
+      "name": "Proyecto de postulación a eJam",
       "link": "https://ejam-agustina-casarone.netlify.app/",
       "description": "Este proyecto fue realizado en 24 horas para una posición de Desarrollador Full Stack en eJam. \n Es una página web completamente funcional y que sigue el diseño de manera pixel perfect basada en el diseño que me fue proporcionado. \n Utilicé Angular 18 con Tailwind para el desarrollo.",
       "design": "https://www.figma.com/design/gHf56mhtFr0lXky0poofoQ/ejam---Clarifion-Upsell-%5B-Client-V-%5D-(Copy)?node-id=0-1&t=ErPOr9kcDMPXakqX-0",
       "repository": "https://github.com/AgusCasarone/eJam-challenge",
       "date": "Jun 2024",
       "image": "assets/images/projects/ejam.png"
+    },
+    "portfolio": {
+      "name": "Portfolio + CV",
+      "description": "Este mismo proyecto. Fue realizado con Angular 18. \n Mi objetivo era tener tanto un Portafolio como un CV que fueran fáciles de mantener, actualizar y personalizar con el tiempo. \n Como sé que no soy la única que necesita este tipo de solución, me tomé el tiempo para hacer esto reutilizable para cualquiera que quiera copiarlo y adaptarlo a sus necesidades.",
+      "repository": "https://github.com/AgusCasarone/Portfolio",
+      "design": "https://www.figma.com/design/F9pH3o2t0Tm3I8yqtDP6zw/CV-color-light-english?node-id=0-1&t=InBec7ZXACjMsu3X-0",
+      "date": "Iniciado en julio de 2024, última actualización en julio de 2024"
+    },
+    "taskly": {
+      "name": "Taskly microfrontend",
+      "description": "Este proyecto fue realizado durante un curso en la empresa dado por MindHub para ITR. Es una página de inicio de sesión/registro.",
+      "repository": "https://github.com/AgusCasarone/Taskly-microfrontend-register",
+      "date": "Junio 2024"
     }
   },
   "languages_list": {
@@ -229,6 +242,9 @@
       "experience": "EXPERIENCIA",
       "my_skills": "MIS HABILIDADES",
       "projects": "PROYECTOS"
+    },
+    "block_subtitles": {
+      "technologies": "Tecnologías"
     },
     "misc_titles": {
       "knowledge": "Conocimiento",

@@ -200,6 +200,19 @@
       "repository": "https://github.com/AgusCasarone/eJam-challenge",
       "date": "Jun 2024",
       "image": "assets/images/projects/ejam.png"
+    },
+    "portfolio": {
+      "name": "Portfolio + CV",
+      "description": "This very project. It was made with Angular 18. \n My goal was to have both a Portfolio and a CV easy to maintain, update and customize as time goes on. \n Since I know I am not the only one who needs this kind of solution, I took the time to make this reusable for anyone to copy and adapt for themselves.",
+      "repository": "https://github.com/AgusCasarone/Portfolio",
+      "design": "https://www.figma.com/design/F9pH3o2t0Tm3I8yqtDP6zw/CV-color-light-english?node-id=0-1&t=InBec7ZXACjMsu3X-0",
+      "date": "Started on July 2024, last updated on July 2024"
+    },
+    "taskly": {
+      "name": "Taskly microfrontend",
+      "description": "This was made over an in-company course given by MindHub for ITR. It is a login/register page.",
+      "repository": "https://github.com/AgusCasarone/Taskly-microfrontend-register",
+      "date": "Jun 2024"
     }
   },
   "languages_list": {
@@ -229,6 +242,9 @@
       "experience": "EXPERIENCE",
       "my_skills": "MY SKILLS",
       "projects": "PROJECTS"
+    },
+    "block_subtitles": {
+      "technologies": "Technologies"
     },
     "misc_titles": {
       "knowledge": "Knowledge",

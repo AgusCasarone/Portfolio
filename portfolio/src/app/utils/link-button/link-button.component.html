@@ -3,7 +3,15 @@ target="_blank"
 rel="noopener noreferrer">
   <button class="button-icon">
     <p class="side front">
-      {{ sideFront }}
+      @if (repository) {
+        {{ 'UI.buttons.github' | translate }}
+      }
+      @else if (design) {
+        {{ 'UI.buttons.design' | translate }}
+      }
+      @else {
+        {{ 'UI.buttons.link' | translate }}
+      }
     </p>
     <div class="icon">
       <img src="{{ image }}"

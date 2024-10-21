@@ -2,19 +2,19 @@ import { Hobby } from '../../../src/interfaces/hobby';
 
 export const hobbyList: Hobby[] = [
   {
-    title: 'Gaming',
+    title: 'hobbies_list.gaming',
     image: 'assets/images/hobbies/gaming.svg'
   },
   {
-    title: 'Movies',
+    title: 'hobbies_list.movies',
     image: 'assets/images/hobbies/movies.svg'
   },
   {
-    title: 'Reading',
+    title: 'hobbies_list.reading',
     image: 'assets/images/hobbies/Reading.svg'
   },
   {
-    title: 'Singing',
+    title: 'hobbies_list.singing',
     image: 'assets/images/hobbies/Singing.svg'
   }
 ]

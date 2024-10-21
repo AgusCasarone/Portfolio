@@ -1,5 +1,5 @@
 <div class="personal-info-block">
-  <h3>Hobbies</h3>
+  <h3>{{ 'UI.misc_titles.hobbies' | translate }}</h3>
 
   <div class="hobby-container">
     @for (hobby of hobbyList; track $index) {
@@ -8,7 +8,7 @@
           <img src="{{ hobby.image }}" alt="{{ hobby.title }}" class="hobby-image">
         </div>
         <div class="hobby-title">
-          <p> {{ hobby.title }} </p>
+          <p> {{ hobby.title | translate}} </p>
         </div>
       </div>
     }

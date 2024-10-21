@@ -1,9 +1,10 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'link-button',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './link-button.component.html',
   styleUrl: './link-button.component.scss'
 })
@@ -14,16 +15,10 @@ export class LinkButtonComponent implements OnInit {
   @Input() repository?: boolean;
 
   image: string = "";
-  sideFront: string = "";
-  sideTop: string = "";
 
   ngOnInit(): void {
     this.image= this.repository ? "assets/icons/github.png" :
     this.design ? "assets/icons/figma.png" :
         "assets/icons/link.png";
-
-    this.sideFront= this.repository ? "GitHub" :
-            this.design ? "Design" :
-                    "Visit";
   }
 }

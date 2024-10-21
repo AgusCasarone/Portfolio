@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { languagesList } from '../../../../public/assets/information/languagesList';
 import { Language } from '../../../interfaces/language';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'languages',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './languages.component.html',
   styleUrl: './languages.component.scss'
 })

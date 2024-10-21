@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { socialMediaList } from '../../../../public/assets/information/socialMediaList';
 import { Social } from '../../../interfaces/social';
 import { PersonalBlockComponent } from '../../utils/personal-block/personal-block.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'social',
   standalone: true,
-  imports: [PersonalBlockComponent],
+  imports: [PersonalBlockComponent, TranslateModule],
   templateUrl: './social.component.html',
   styleUrl: './social.component.scss'
 })
