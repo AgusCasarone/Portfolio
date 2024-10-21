@@ -1,5 +1,4 @@
 {
-  "texto": "texto en español",
   "presentation": {
     "title": "👋 ¡Hola! Soy Agustina Casarone",
     "description": "Soy una apasionada desarrolladora Full Stack de La Plata, Argentina, especializada en Java, SQL y Angular. Me encanta crear soluciones de software innovadoras y escalables que tengan un impacto real.",
@@ -201,6 +200,48 @@
       "repository": "https://github.com/AgusCasarone/eJam-challenge",
       "date": "Jun 2024",
       "image": "assets/images/projects/ejam.png"
+    }
+  },
+  "languages_list": {
+    "spanish": {
+      "language": "Español",
+      "level": "Nativo"
+    },
+    "english": {
+      "language": "Inglés",
+      "level": "C2"
+    },
+    "french": {
+      "language": "Francés",
+      "level": "A1"
+    }
+  },
+  "hobbies_list": {
+    "gaming": "Jueguitos",
+    "movies": "Pelis",
+    "reading": "Leer",
+    "singing": "Cantar"
+  },
+  "UI": {
+    "block_titles": {
+      "who_am_i": "QUIÉN SOY",
+      "education": "EDUCACIÓN",
+      "experience": "EXPERIENCIA",
+      "my_skills": "MIS HABILIDADES",
+      "projects": "PROYECTOS"
+    },
+    "misc_titles": {
+      "knowledge": "Conocimiento",
+      "languages": "Idiomas",
+      "social_media": "Redes",
+      "hobbies": "Pasatiempos"
+    },
+    "buttons": {
+      "link": "Visitar",
+      "design": "Diseño",
+      "github": "GitHub",
+      "download": "Descargar",
+      "translate": "Traducir"
     }
   }
 }

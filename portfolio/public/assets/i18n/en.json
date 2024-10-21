@@ -1,6 +1,5 @@
 {
-  "texto": "text in english",
-    "presentation": {
+  "presentation": {
     "title": "👋 Hi! I'm Agustina Casarone",
     "description": "I am a passionate Full Stack Developer from La Plata, Argentina, specialized in Java, SQL, and Angular. I thrive on crafting innovative and scalable software solutions that make a real impact.",
     "professional_background": "With a solid foundation in backend technologies like Spring Boot, Quarkus, and Sonar, combined with a keen eye for frontend development using Angular and Bootstrap, I bring a comprehensive approach to software development. I excel in pixel-perfect development and beautiful UX/UI designs, ensuring high-quality and efficient results."
@@ -201,6 +200,48 @@
       "repository": "https://github.com/AgusCasarone/eJam-challenge",
       "date": "Jun 2024",
       "image": "assets/images/projects/ejam.png"
+    }
+  },
+  "languages_list": {
+    "spanish": {
+      "language": "Spanish",
+      "level": "Native"
+    },
+    "english": {
+      "language": "English",
+      "level": "C2"
+    },
+    "french": {
+      "language": "French",
+      "level": "A1"
+    }
+  },
+  "hobbies_list": {
+    "gaming": "Gaming",
+    "movies": "Movies",
+    "reading": "Reading",
+    "singing": "Singing"
+  },
+  "UI": {
+    "block_titles": {
+      "who_am_i": "WHO AM I",
+      "education": "EDUCATION",
+      "experience": "EXPERIENCE",
+      "my_skills": "MY SKILLS",
+      "projects": "PROJECTS"
+    },
+    "misc_titles": {
+      "knowledge": "Knowledge",
+      "languages": "Languages",
+      "social_media": "Social Media",
+      "hobbies": "Hobbies"
+    },
+    "buttons": {
+      "link": "Visit",
+      "design": "Design",
+      "github": "GitHub",
+      "download": "Download",
+      "translate": "Translate"
     }
   }
 }
