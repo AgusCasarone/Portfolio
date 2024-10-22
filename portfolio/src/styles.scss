@@ -143,7 +143,7 @@
   .presentation-description { @apply text-[1.5rem] my-[0.5rem] leading-[1.5rem] text-justify }
 
   .professional { @apply md:w-full bg-main-background-color/75 p-[1rem] rounded-[10px] }
-  .professional-title { @apply w-[60%]  md:w-[60%] lg:w-[50%] flex justify-between bg-main-block-title-color text-main-title-color pl-[2rem] rounded-[5px] text-500 text-lg }
+  .professional-title { @apply w-[60%]  md:w-[60%] lg:w-[50%] flex justify-between bg-main-block-title-color text-main-title-color pl-[2rem] rounded-[5px] text-500 md:text-lg }
   .professional-line { @apply w-[40%]  md:w-[50%] lg:w-[60%] border-main-block-title-color my-auto }
 
   .professional-block { @apply my-[1.5rem] }
