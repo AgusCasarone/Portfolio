@@ -131,6 +131,7 @@
   portfolio-nav-bar { @apply fixed top-[1rem] right-[1rem] z-50 }
   .portfolio-nav-bar { @apply flex flex-col  }
 
+  .tooltip-container { @apply place-content-center }
   .nav-button { @apply bg-detail-complementary border-[2px] rounded-full border-detail cursor-pointer h-[2rem] w-[2rem] items-center justify-center mb-1 hover:transition-all hover:bg-detail-third hover:duration-[0.25s] }
   .language-toggle-list { @apply w-[4.5rem] p-[5px] place-content-center rounded fixed right-[1.5rem] transform translate-y-2/4 border-detail bg-detail-complementary }
   .language-button { @apply w-[3.5rem] place-content-center hover:transition-all hover:bg-detail-third hover:duration-[0.25s]  }
