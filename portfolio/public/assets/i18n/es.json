@@ -206,7 +206,7 @@
       "description": "Este mismo proyecto. Fue realizado con Angular 18. \n Mi objetivo era tener tanto un Portafolio como un CV que fueran fáciles de mantener, actualizar y personalizar con el tiempo. \n Como sé que no soy la única que necesita este tipo de solución, me tomé el tiempo para hacer esto reutilizable para cualquiera que quiera copiarlo y adaptarlo a sus necesidades.",
       "repository": "https://github.com/AgusCasarone/Portfolio",
       "design": "https://www.figma.com/design/F9pH3o2t0Tm3I8yqtDP6zw/CV-color-light-english?node-id=0-1&t=InBec7ZXACjMsu3X-0",
-      "date": "Iniciado en julio de 2024, última actualización en julio de 2024"
+      "date": "Iniciado en julio de 2024, última actualización en octubre de 2024"
     },
     "taskly": {
       "name": "Taskly microfrontend",
